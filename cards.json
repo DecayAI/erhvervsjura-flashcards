@@ -1,0 +1,806 @@
+[
+  {
+    "id": 201,
+    "front": "Hvad er en arrest?",
+    "back_answer": "En arrest er et foreløbigt udlæg, der foretages uden et eksekutionsgrundlag. Den kan benyttes til sikkerhed for pengekrav, når der er behov for at opnå en sikkerhed, selvom der endnu ikke foreligger et eksekutionsgrundlag.",
+    "source_ref": "24.12 Ordbog"
+  },
+  {
+    "id": 202,
+    "front": "Hvad er et frivilligt forlig?",
+    "back_answer": "Et frivilligt forlig er en aftale mellem kreditor og debitor om, at debitor erkender at skylde et beløb til kreditor. Forliget er et eksekutionsgrundlag, når det klart fremgår af forliget.",
+    "source_ref": "24.12 Ordbog"
+  },
+  {
+    "id": 203,
+    "front": "Hvad er inkasso?",
+    "back_answer": "Inkasso er den procedure, der følges, når en kreditor forsøger at få en debitor til at betale et skyldigt beløb. Det kan ske gennem advokater eller inkassovirksomheder, der skal have autorisation fra justitsministeren.",
+    "source_ref": "24.12 Ordbog"
+  },
+  {
+    "id": 204,
+    "front": "Hvad er insolvens?",
+    "back_answer": "Insolvens betyder, at debitor ikke er i stand til at overholde sine økonomiske forpligtelser og ikke har udsigt til at kunne få indtægter. Debitors passiver overstiger debitors aktiver.",
+    "source_ref": "24.12 Ordbog"
+  },
+  {
+    "id": 205,
+    "front": "Hvad er udpantning?",
+    "back_answer": "Udpantning er inddrivelse af visse offentlige krav uden eksekutionsgrundlag. Det foretages af en pantefoged, der er ansat i Skatteforvaltningen, og gælder fx manglende skatte- eller afgiftsindbetaling og bøder.",
+    "source_ref": "24.12 Ordbog"
+  },
+  {
+    "id": 206,
+    "front": "Hvad er en viljeserklæring?",
+    "back_answer": "En viljeserklæring er en erklæring, der udtrykker en persons vilje til at indgå en aftale eller påtage sig en pligt. Den kan være mundtlig eller skriftlig og er bindende, når den er kommet til modtagerens kundskab.",
+    "source_ref": "Aftalelov § 30"
+  },
+  {
+    "id": 207,
+    "front": "Hvad er svig i aftaleretten?",
+    "back_answer": "Svig foreligger, når en person mod bedre vidende giver urigtige oplysninger eller fortier væsentlige forhold i forbindelse med løftets afgivelse, med det formål at få løftegiver til at afgive et løfte, vedkommende ikke ville have afgivet uden svigen.",
+    "source_ref": "12.2.1 Svig"
+  },
+  {
+    "id": 208,
+    "front": "Hvad er tredjemandssvig?",
+    "back_answer": "Tredjemandssvig foreligger, når en tredjemand giver forkerte oplysninger, der fremkalder et løfte. Hvis løftemodtageren er i god tro, altså uvidende om svigen, er aftalen bindende for løftegiveren.",
+    "source_ref": "12.2.1 Svig"
+  },
+  {
+    "id": 209,
+    "front": "Hvad er udnyttelse (åger)?",
+    "back_answer": "Udnyttelse, også kaldet åger, foreligger, når nogen udnytter en andens betydelige økonomiske eller personlige vanskeligheder, manglende indsigt, letsind eller et bestående afhængighedsforhold til at opnå en ydelse, der står i væsentligt misforhold til modydelsen. Den udnyttede er ikke bundet af aftalen.",
+    "source_ref": "12.2.2 Udnyttelse (åger)"
+  },
+  {
+    "id": 210,
+    "front": "Hvad er fejltagelse i aftaleretten?",
+    "back_answer": "Fejltagelse foreligger, når løftegiveren selv er ansvarlig for, at en viljeserklæring ved fejlskrift eller anden fejltagelse har fået et andet indhold end tilsigtet. Hvis løftemodtageren indser eller bør indse fejlen, er aftalen ugyldig.",
+    "source_ref": "12.2.3 Fejltagelse"
+  },
+  {
+    "id": 211,
+    "front": "Hvad er simpel tvang?",
+    "back_answer": "Simpel tvang foreligger, når en aftale tvinges igennem uden brug af vold, fx via afpresning. Den simple tvang skal være retsstridig, og løftet er ikke bindende for den tvungne, hvis løftemodtageren har udøvet tvangen eller indset den.",
+    "source_ref": "12.2.4 Simpel tvang"
+  },
+  {
+    "id": 212,
+    "front": "Hvad er uhæderlighed?",
+    "back_answer": "Uhæderlighed foreligger, når en viljeserklæring ellers måtte anses for gyldig, men det ville stride imod almindelig hæderlighed at gøre den gældende. Reglen er en svag ugyldighedsgrund, og aftalen er kun ugyldig, hvis løftemodtageren er i ond tro.",
+    "source_ref": "12.2.5 Uhæderlighed"
+  },
+  {
+    "id": 213,
+    "front": "Hvad er en generalklausul?",
+    "back_answer": "En generalklausul er en bestemmelse, der er meget bredt formuleret, og som derfor kan anvendes på mange forskellige situationer. Den giver domstolene mulighed for at gribe ind over for urimelige aftaler, selvom de ikke strider mod almindelig hæderlighed.",
+    "source_ref": "Aftalelovens generalklausul – § 36"
+  },
+  {
+    "id": 214,
+    "front": "Hvad er en forbrugeraftale?",
+    "back_answer": "En forbrugeraftale er en aftale, som en erhvervsdrivende indgår som led i sit erhverv, når den anden part (forbrugeren) hovedsagelig handler uden for sit erhverv. Formålet er at beskytte forbrugeren som den svage part.",
+    "source_ref": "14.1 Forbrugeraftaleretlige begreber"
+  },
+  {
+    "id": 215,
+    "front": "Hvad er en erhvervsdrivende?",
+    "back_answer": "En erhvervsdrivende er en fysisk eller juridisk person, der udøver virksomhed som handlende, håndværker eller industridrivende, eller udøver et liberalt erhverv. De handler i eget navn eller på vegne af en erhvervsdrivende.",
+    "source_ref": "Markedsføringslov § 2"
+  },
+  {
+    "id": 216,
+    "front": "Hvad er en vare med digitale elementer?",
+    "back_answer": "En vare med digitale elementer er en løsøregenstand, der integrerer eller er indbyrdes forbundet med digitalt indhold eller en digital tjeneste på en sådan måde, at fraværet af det digitale indhold eller den digitale tjeneste ville forhindre genstanden i at opfylde sin funktion.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 217,
+    "front": "Hvad er digitalt indhold?",
+    "back_answer": "Digitalt indhold er data, der fremstilles og leveres i digital form. Det kan være fx musiktjenester, sociale medier eller software. Beskyttelsen gælder, uanset om der betales et pengebeløb for tjenesten, eller om den er gratis.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 218,
+    "front": "Hvad er en digital tjeneste?",
+    "back_answer": "En digital tjeneste er en tjeneste, der gør det muligt at generere, behandle, lagre eller få adgang til data i digital form, eller som muliggør deling af eller enhver anden form for interaktion med data i digital form, som uploades eller genereres af brugere af den pågældende tjeneste.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 219,
+    "front": "Hvad er et køb?",
+    "back_answer": "Et køb er en gensidig bebyrdende aftale, hvor en sælger overdrager en vare (et aktiv) til en køber mod, at køberen overdrager penge, altså betaler prisen for varen. Køber bliver ejer af den købte vare.",
+    "source_ref": "15.1 Køberetlige begreber"
+  },
+  {
+    "id": 220,
+    "front": "Hvad er handelskøb?",
+    "back_answer": "Handelskøb er køb, som indgås mellem handlende i eller for deres bedrift. Køber skal enten anvende det købte i sin virksomhed eller sælge det videre. Reglerne for handelskøb er deklaratoriske.",
+    "source_ref": "Købelov § 4"
+  },
+  {
+    "id": 221,
+    "front": "Hvad er civilkøb?",
+    "back_answer": "Civilkøb er en købeaftale, der hverken er et forbrugerkøb eller et handelskøb. Det er typisk en aftale, der indgås mellem to private personer, fx et køb eller salg gennem DBA. Reglerne for civilkøb reguleres af reglerne om handelskøb med enkelte undtagelser.",
+    "source_ref": "Civilkøb"
+  },
+  {
+    "id": 222,
+    "front": "Hvad er specieskøb?",
+    "back_answer": "Specieskøb er en købeaftale, der er indgået om en individuelt bestemt genstand. Der findes kun den ene genstand, der kan opfylde aftalen, og sælger kan ikke vælge at levere en anden genstand end netop den, aftalen vedrører.",
+    "source_ref": "Specieskøb"
+  },
+  {
+    "id": 223,
+    "front": "Hvad er genuskøb?",
+    "back_answer": "Genuskøb er et køb af varer bestemt efter art, hvor der købes en del af en mængde. Der er flere af samme slags, og sælger har mulighed for at vælge varen inden for den aftalte art. Hvis en genusgenstand ødelægges, har sælgeren mulighed for at skaffe en anden tilsvarende.",
+    "source_ref": "Genuskøb"
+  },
+  {
+    "id": 224,
+    "front": "Hvad er sælgers pligter i et køb?",
+    "back_answer": "Sælgers vigtigste pligter er at levere den rigtige vare med hensyn til kvalitet og kvantitet, på det rigtige sted og på det rigtige tidspunkt. Sælger har også en oplysningspligt over for køber.",
+    "source_ref": "15.2 Sælgers pligter"
+  },
+  {
+    "id": 225,
+    "front": "Hvad er levering i køberetten?",
+    "back_answer": "Levering er et vigtigt begreb i køberetten, idet risikoen for varens hændelige undergang eller beskadigelse overgår fra sælger til køber ved leveringen. Levering sker, når varen er stillet til rådighed for køber.",
+    "source_ref": "Levering"
+  },
+  {
+    "id": 226,
+    "front": "Hvad er fordringshavermora?",
+    "back_answer": "Fordringshavermora foreligger, hvis sælger ikke kan komme til at levere som aftalt pga. købers forhold, fx at køber ikke afhenter eller modtager varen til den aftalte tid. Risikoen for varens hændelige undergang overgår fra sælger til køber.",
+    "source_ref": "Fordringshavermora"
+  },
+  {
+    "id": 227,
+    "front": "Hvad er distancehandel?",
+    "back_answer": "Distancehandel, også kaldet forsendelseskøb, er når varen skal bringes uden for sælgers plads. Leveringsstedet er hos den første fremmede fragtfører, og risikoen overgår fra sælger til køber, når varen afleveres til fragtføreren.",
+    "source_ref": "Distancehandel"
+  },
+  {
+    "id": 228,
+    "front": "Hvad er købers pligter i et køb?",
+    "back_answer": "Købers vigtigste pligt er at betale den rette købesum med de rigtige betalingsmidler, til rette betalingstid, til rette kreditor og på rette betalingssted.",
+    "source_ref": "17.2 Købers pligter"
+  },
+  {
+    "id": 229,
+    "front": "Hvad er sælgers misligholdelse?",
+    "back_answer": "Sælgers misligholdelse foreligger, hvis sælger ikke overholder købeaftalen, fx ved at levere varen for sent (forsinkelse) eller ved at levere en vare, der lider af en mangel (mangelfuld vare) eller ved vanhjemmel (sælger ejer ikke varen).",
+    "source_ref": "17.3 Sælgers misligholdelse"
+  },
+  {
+    "id": 230,
+    "front": "Hvad er købers misligholdelsesbeføjelser?",
+    "back_answer": "Hvis sælger misligholder købeaftalen, har køber mulighed for at reagere med misligholdelsesbeføjelser. Køber kan vælge at fastholde købet (kræve levering, omlevering, afhjælpning, forholdsmæssigt afslag), hæve købet eller kræve erstatning for tab.",
+    "source_ref": "17.3 Sælgers misligholdelse"
+  },
+  {
+    "id": 231,
+    "front": "Hvad er reklamationsret?",
+    "back_answer": "Reklamationsret er en ufravigelig rettighed til at klage over en vare, hvis den lider af en mangel. Forbrugeren skal reklamere inden rimelig tid efter, at manglen er konstateret, og senest inden to år efter leveringen.",
+    "source_ref": "15.4.4 Reklamation og garanti"
+  },
+  {
+    "id": 232,
+    "front": "Hvad er garanti?",
+    "back_answer": "En garanti er en ekstra service, hvorefter sælger stiller forbrugeren væsentligt bedre, end Købeloven allerede gør. Garantien er en del af købeaftalen og skal præcist oplyse, hvordan den forbedrer forbrugerens stilling.",
+    "source_ref": "15.4.4 Reklamation og garanti"
+  },
+  {
+    "id": 233,
+    "front": "Hvad er markedsføringsret?",
+    "back_answer": "Markedsføringsret regulerer, hvordan virksomheder må markedsføre sig, med det formål at beskytte forbrugere, erhvervsdrivende og almene samfundsinteresser. Loven stiller krav til god markedsføringsskik, prisoplysninger, skjult reklame og reklamer rettet mod børn og unge.",
+    "source_ref": "16. Markedsføringsret"
+  },
+  {
+    "id": 234,
+    "front": "Hvad er god markedsføringsskik?",
+    "back_answer": "God markedsføringsskik er en overordnet retlig standard, der kræver, at erhvervsdrivende udviser ordentlig og rimelig adfærd i deres markedsføring. Den omfatter alt, hvad en erhvervsdrivende gør for at fremme kendskab til og/eller salg af et produkt.",
+    "source_ref": "16.1 Markedsføringslovens formål og definitioner"
+  },
+  {
+    "id": 235,
+    "front": "Hvad er skjult reklame?",
+    "back_answer": "Skjult reklame er, når en reklame camoufleres, så det ikke er tydeligt for forbrugeren, at der er tale om markedsføring. Markedsføringsloven kræver, at al reklame tydeligt skal markeres som reklame, fx med ordene 'reklame' eller 'annonce'.",
+    "source_ref": "16.5 Skjult reklame – reklameidentifikation"
+  },
+  {
+    "id": 236,
+    "front": "Hvad er sammenlignende reklame?",
+    "back_answer": "Sammenlignende reklame er en markedsføring, hvor et produkt fremhæves ved at sammenligne det med et eller flere konkurrerende produkter. Det er lovligt, hvis det opfylder en række krav, fx at det ikke er vildledende, nedvurderer konkurrenters produkter eller skaber forveksling.",
+    "source_ref": "16.6 Sammenlignende reklamer"
+  },
+  {
+    "id": 237,
+    "front": "Hvad er uanmodet henvendelse?",
+    "back_answer": "Uanmodet henvendelse er, når en erhvervsdrivende retter henvendelse til en forbruger via elektronisk post, automatisk opkaldssystem eller telefax uden forbrugerens forudgående samtykke. Det er populært kaldet SPAM og er ulovligt.",
+    "source_ref": "16.7 Uanmodet henvendelse"
+  },
+  {
+    "id": 238,
+    "front": "Hvad er tilgift?",
+    "back_answer": "Tilgift betyder, at kunden får tilbudt en ekstra vare gratis ved køb af en anden vare. Det er lovligt, hvis den erhvervsdrivende tydeligt oplyser forbrugeren om værdien af begge varer og ikke har sat prisen op i anledning af markedsføringstiltaget.",
+    "source_ref": "Tilgift"
+  },
+  {
+    "id": 239,
+    "front": "Hvad er konkurrencer i markedsføring?",
+    "back_answer": "Ved konkurrencer i markedsføring skal forbrugeren have klare informationer om præmiernes antal og værdi, grundlaget for at finde vinderne, vurdering af vinderchance, hvornår vinderne findes, og hvem der står bag konkurrencen. Det er vigtigt at få samtykke til markedsføringsmateriale.",
+    "source_ref": "Konkurrencer"
+  },
+  {
+    "id": 240,
+    "front": "Hvad er rabatter og mængdebegrænsning i markedsføring?",
+    "back_answer": "Ved rabatter skal forbrugeren vide, hvordan rabatten opnås og hvilke betingelser, der stilles. Mængdebegrænsning er, når sælger oplyser, at der max. sælges et bestemt antal varer pr. kunde. Det er lovligt, hvis forbrugeren klart oplyses om betingelserne.",
+    "source_ref": "Rabatter og mængdebegrænsning"
+  },
+  {
+    "id": 241,
+    "front": "Hvad er gennemsigtighed i markedsføring?",
+    "back_answer": "Gennemsigtighed i markedsføring betyder, at alle for forbrugeren relevante oplysninger skal være præcist angivet i forbindelse med selve markedsføringen. Det er den erhvervsdrivendes pligt at sikre gennemsigtighed, så forbrugeren kan træffe sin købsbeslutning på et reelt og veloplyst grundlag.",
+    "source_ref": "Gennemsigtighed"
+  },
+  {
+    "id": 242,
+    "front": "Hvad er kredit?",
+    "back_answer": "Kredit betyder, at en vare overgives til en forbruger uden, at sælger samtidig får betaling, eller at en kreditgiver stiller et beløb til rådighed for låntager, der så skal betale det tilbage senere.",
+    "source_ref": "19. Kreditaftaler"
+  },
+  {
+    "id": 243,
+    "front": "Hvad er kreditværdighed?",
+    "back_answer": "Kreditværdighed er en vurdering af en debitors økonomiske forhold, herunder indtægtsforhold, formueforhold og troværdighed, som en kreditor foretager for at vurdere risikoen ved at give kredit. Kreditor har pligt til at foretage en reel kreditvurdering.",
+    "source_ref": "Kreditværdighed"
+  },
+  {
+    "id": 244,
+    "front": "Hvad er gældsregistre?",
+    "back_answer": "Gældsregistre, fx Experian (RKI), kan modtage anmeldelse fra kreditorer om debitorer, der ikke betaler deres gæld til tiden. Formålet er at advare andre kreditorer om, at den anmeldte debitor er en dårlig betaler.",
+    "source_ref": "Gældsregistre"
+  },
+  {
+    "id": 245,
+    "front": "Hvad er pant?",
+    "back_answer": "Pant er en form for kreditsikring, hvor kreditor får sikkerhed i et aktiv, som debitor ejer. Panteretten giver kreditor en fortrinsret til pantets værdi forud for andre kreditorer, hvis debitor ikke betaler.",
+    "source_ref": "21. Pant i forbrugerforhold"
+  },
+  {
+    "id": 246,
+    "front": "Hvad er håndpant?",
+    "back_answer": "Håndpant er en panteform, hvor det pantsatte aktiv skal fratages pantsætteren og opbevares hos panthaveren eller en tredjemand. Der kræves en effektiv rådighedsberøvelse for at sikre panthaverens ret.",
+    "source_ref": "21.2.1 Håndpant i løsøre"
+  },
+  {
+    "id": 247,
+    "front": "Hvad er underpant?",
+    "back_answer": "Underpant er en panteform, hvor rådigheden over det pantsatte aktiv forbliver hos pantsætteren. Det er en hensigtsmæssig form for pantsætning, da pantsætteren fortsat kan anvende genstanden.",
+    "source_ref": "21.2.2 Underpant i løsøre"
+  },
+  {
+    "id": 248,
+    "front": "Hvad er sikringsakter?",
+    "back_answer": "Sikringsakter er de handlinger, panthaver bør/skal gøre for at sikre sin ret over pantet i forhold til andre kreditorer og aftaleerhververe. Eksempler inkluderer tinglysning og effektiv rådighedsberøvelse.",
+    "source_ref": "21.2 Pantformer og sikringsakter"
+  },
+  {
+    "id": 249,
+    "front": "Hvad er tinglysning?",
+    "back_answer": "Tinglysning er en sikringsakt, der indebærer registrering af rettigheder (fx panteret, ejendomsret) i et offentligt register. Tinglysning sikrer, at panthaverens ret opnår beskyttelse over for andre, der senere får ret til samme aktiv.",
+    "source_ref": "22. Tinglysning"
+  },
+  {
+    "id": 250,
+    "front": "Hvad er prioritetsvirkning?",
+    "back_answer": "Prioritetsvirkning er et overordnet princip i dansk ret, der betyder, at den, der først får tinglyst sin ret (i god tro), vinder over andre med utinglyste og senere tinglyste rettigheder. 'Først i tid, bedst i ret'.",
+    "source_ref": "22.2 Prioritetsvirkningen – når flere får pant i samme aktiv"
+  },
+  {
+    "id": 251,
+    "front": "Hvad er fysiske personers hæftelse?",
+    "back_answer": "Fysiske personers hæftelse betyder, at enkeltpersoner som udgangspunkt hæfter personligt med hele deres formue for den gæld, de selv stifter. Det betyder, at kreditorer kan søge sig fyldestgjort i alle debitors aktiver.",
+    "source_ref": "23. Fysiske personers hæftelse"
+  },
+  {
+    "id": 252,
+    "front": "Hvad er formuefællesskab?",
+    "back_answer": "Formuefællesskab opstår, når to personer bliver gift. Det betyder, at ægtefællernes bodele (aktiver og passiver) skal ligedeles ved ægteskabets ophør, fx ved skilsmisse eller død.",
+    "source_ref": "23.3.1 Formuefællesskab"
+  },
+  {
+    "id": 253,
+    "front": "Hvad er særråden?",
+    "back_answer": "Særråden er den hovedregel, der medfører, at hver ægtefælle råder ubegrænset over sin egen bodel (aktiver og passiver). Det betyder, at den ægtefælle, der ejer et aktiv, frit kan disponere over det, fx sælge eller pantsætte det.",
+    "source_ref": "23.3.2 Særråden"
+  },
+  {
+    "id": 254,
+    "front": "Hvad er særhæften?",
+    "back_answer": "Særhæften er den regel, der betyder, at hver ægtefælle hæfter for sin egen gæld med sine egne aktiver, uanset om gælden er opstået før eller under ægteskabet. Ægteskabet har reelt ingen betydning for den enkeltes gældsstiftelse.",
+    "source_ref": "23.3.3 Særhæften"
+  },
+  {
+    "id": 255,
+    "front": "Hvad er særeje?",
+    "back_answer": "Særeje er en undtagelse fra hovedreglen om formuefællesskab, der betyder, at særejeaktiver ikke deles ved ægteskabets ophør. Særeje kan opstå ved aftale mellem ægtefællerne (ægtepagt) eller ved tredjemands bestemmelse (testamente eller gavebrev).",
+    "source_ref": "23.3.4 Særeje"
+  },
+  {
+    "id": 256,
+    "front": "Hvad er bodeling?",
+    "back_answer": "Bodeling er den proces, der gennemføres, når et ægteskab ophører pga. separation, skilsmisse eller død. Formuefællesskabets delingsformuer ligedeles, og hver ægtefælles nettobodel beregnes.",
+    "source_ref": "23.3.5 Ægteskabets ophør – bodeling"
+  },
+  {
+    "id": 257,
+    "front": "Hvad er papirløst samlivsforhold?",
+    "back_answer": "Et papirløst samlivsforhold er, når to mennesker bor på samme adresse og lever sammen i et forhold, der kan sammenlignes med ægteskabet, men uden at være gift. Der findes ikke en lov, der regulerer papirløst samlevendes forhold, og der opstår intet formuefællesskab.",
+    "source_ref": "23.4 Papirløst samlivsforhold"
+  },
+  {
+    "id": 258,
+    "front": "Hvad er eksekutionsgrundlag?",
+    "back_answer": "Et eksekutionsgrundlag er et klart bevis på, at debitor skylder penge, og det er et fundament, der kræves, inden en fogedsag kan starte. Eksempler inkluderer domme, retsforlig, frivillige forlig, gældsbreve og pantebreve.",
+    "source_ref": "24.2 Eksekutionsgrundlag"
+  },
+  {
+    "id": 259,
+    "front": "Hvad er udlæg?",
+    "back_answer": "Udlæg er en sikkerhed for kreditor, der foretages i debitors aktiver i Fogedretten. Det kaldes også retspant, og udlægshaveren får en fortrinsret til aktivets værdi i forhold til debitors andre kreditorer.",
+    "source_ref": "24.5 Retsvirkning af udlæg"
+  },
+  {
+    "id": 260,
+    "front": "Hvad er tvangsauktion?",
+    "back_answer": "Tvangsauktion er en proces, hvor et aktiv sælges via Fogedretten for at skaffe midler til dækning af kreditors tilgodehavende, hvis debitor ikke betaler sin gæld. Aktivet sælges for højeste bud.",
+    "source_ref": "24.6 Tvangsauktion"
+  },
+  {
+    "id": 261,
+    "front": "Hvad er den forenklede inkassoproces?",
+    "back_answer": "Den forenklede inkassoproces er et supplement til den måde at inddrive et tilgodehavende på, der gør det lettere for kreditorer at inddrive deres tilgodehavender hos debitorer. Den kan anvendes ved pengekrav på højst 100.000 kr., når der ikke forventes indsigelser fra debitor.",
+    "source_ref": "24.7 Den forenklede inkassoproces"
+  },
+  {
+    "id": 262,
+    "front": "Hvad er et betalingspåkrav?",
+    "back_answer": "Et betalingspåkrav er et skema, der kan rekvireres i Fogedretten, udfyldes og sendes til Fogedretten uden bilag. Det bruges til at indlede den forenklede inkassoproces og skal indeholde oplysninger om kravet og fristen for betaling.",
+    "source_ref": "Betalingspåkravet"
+  },
+  {
+    "id": 263,
+    "front": "Hvad er umiddelbare fogedforretninger?",
+    "back_answer": "Umiddelbare fogedforretninger er sager, der drejer sig om at gennemføre andre krav end inddrivelse af pengekrav, fx tilbagetagelse af solgte varer ved ejendomsforbehold eller udsættelse af lejere. Der kræves ikke domstolsprøvelse.",
+    "source_ref": "24.8 Umiddelbare fogedforretninger"
+  },
+  {
+    "id": 264,
+    "front": "Hvad er et foreløbigt retsmiddel?",
+    "back_answer": "Et foreløbigt retsmiddel er et retsskridt i form af arrest, der foretages uden et eksekutionsgrundlag. Det kan benyttes, når der er tale om et pengekrav, og der er behov for at opnå en sikkerhed, selvom der endnu ikke foreligger et eksekutionsgrundlag.",
+    "source_ref": "24.9 Foreløbigt retsmiddel"
+  },
+  {
+    "id": 265,
+    "front": "Hvad er en insolvenserklæring?",
+    "back_answer": "En insolvenserklæring er en erklæring, debitor kan afgive i Fogedretten, hvis han ikke kan betale, hvad han skylder, og han ikke ejer aktiver, der kan foretages udlæg i. Den freder debitor for yderligere møder i Fogedretten i seks måneder.",
+    "source_ref": "Insolvenserklæring"
+  },
+  {
+    "id": 266,
+    "front": "Hvad er påvisningsret?",
+    "back_answer": "Påvisningsret er debitors ret til selv at pege på, hvilke aktiver der skal foretages udlæg i. Fogedretten påser, at udlægget så vidt muligt sker i de aktiver, skyldneren og hans husstand bedst kan undvære.",
+    "source_ref": "Påvisningsret"
+  },
+  {
+    "id": 267,
+    "front": "Hvad er en påkravsskrivelse?",
+    "back_answer": "En påkravsskrivelse er en rykkerskrivelse til debitor om at betale det skyldige beløb inden mindst 10 dage. Den skal indeholde alle oplysninger, der er nødvendige for, at debitor kan vurdere, om det er det rigtige beløb, han afkræves.",
+    "source_ref": "Påkravsskrivelse"
+  },
+  {
+    "id": 268,
+    "front": "Hvad er et rykkergebyr?",
+    "back_answer": "Et rykkergebyr er et gebyr på højst 100 kr. inkl. moms, som kreditor må opkræve pr. rykkerskrivelse, dog maksimalt 3 gange. Det er en kompensation for kreditors udgifter i forbindelse med misligholdelsen.",
+    "source_ref": "Rykkergebyr i forbrugerforhold"
+  },
+  {
+    "id": 269,
+    "front": "Hvad er trangsbeneficiet?",
+    "back_answer": "Trangsbeneficiet er en regel i Retsplejelovens § 509, der betyder, at der ikke kan foretages udlæg i aktiver, der er nødvendige for, at debitor kan leve et beskedent hjem og en beskeden levefod. Det beskytter debitors basale behov.",
+    "source_ref": "Aktiver, der ikke kan foretages udlæg i"
+  },
+  {
+    "id": 270,
+    "front": "Hvad er en afdragsordning?",
+    "back_answer": "En afdragsordning er en aftale mellem rekvirenten (kreditor) og rekvisitus (debitor) om afvikling af et tilgodehavende over tid. Debitor betaler hele gælden over en nærmere bestemt periode med faste månedlige afdrag.",
+    "source_ref": "24.12 Ordbog"
+  },
+  {
+    "id": 271,
+    "front": "Hvad er en viljeserklæring?",
+    "back_answer": "En viljeserklæring er en erklæring, der udtrykker en persons vilje til at indgå en aftale eller påtage sig en pligt. Den kan være mundtlig eller skriftlig og er bindende, når den er kommet til modtagerens kundskab.",
+    "source_ref": "Aftalelov § 30"
+  },
+  {
+    "id": 272,
+    "front": "Hvad er svig i aftaleretten?",
+    "back_answer": "Svig foreligger, når en person mod bedre vidende giver urigtige oplysninger eller fortier væsentlige forhold i forbindelse med løftets afgivelse, med det formål at få løftegiver til at afgive et løfte, vedkommende ikke ville have afgivet uden svigen.",
+    "source_ref": "12.2.1 Svig"
+  },
+  {
+    "id": 273,
+    "front": "Hvad er tredjemandssvig?",
+    "back_answer": "Tredjemandssvig foreligger, når en tredjemand giver forkerte oplysninger, der fremkalder et løfte. Hvis løftemodtageren er i god tro, altså uvidende om svigen, er aftalen bindende for løftegiveren.",
+    "source_ref": "12.2.1 Svig"
+  },
+  {
+    "id": 274,
+    "front": "Hvad er udnyttelse (åger)?",
+    "back_answer": "Udnyttelse, også kaldet åger, foreligger, når nogen udnytter en andens betydelige økonomiske eller personlige vanskeligheder, manglende indsigt, letsind eller et bestående afhængighedsforhold til at opnå en ydelse, der står i væsentligt misforhold til modydelsen. Den udnyttede er ikke bundet af aftalen.",
+    "source_ref": "12.2.2 Udnyttelse (åger)"
+  },
+  {
+    "id": 275,
+    "front": "Hvad er fejltagelse i aftaleretten?",
+    "back_answer": "Fejltagelse foreligger, når løftegiveren selv er ansvarlig for, at en viljeserklæring ved fejlskrift eller anden fejltagelse har fået et andet indhold end tilsigtet. Hvis løftemodtageren indser eller bør indse fejlen, er aftalen ugyldig.",
+    "source_ref": "12.2.3 Fejltagelse"
+  },
+  {
+    "id": 276,
+    "front": "Hvad er simpel tvang?",
+    "back_answer": "Simpel tvang foreligger, når en aftale tvinges igennem uden brug af vold, fx via afpresning. Den simple tvang skal være retsstridig, og løftet er ikke bindende for den tvungne, hvis løftemodtageren har udøvet tvangen eller indset den.",
+    "source_ref": "12.2.4 Simpel tvang"
+  },
+  {
+    "id": 277,
+    "front": "Hvad er uhæderlighed?",
+    "back_answer": "Uhæderlighed foreligger, når en viljeserklæring ellers måtte anses for gyldig, men det ville stride imod almindelig hæderlighed at gøre den gældende. Reglen er en svag ugyldighedsgrund, og aftalen er kun ugyldig, hvis løftemodtageren er i ond tro.",
+    "source_ref": "12.2.5 Uhæderlighed"
+  },
+  {
+    "id": 278,
+    "front": "Hvad er en generalklausul?",
+    "back_answer": "En generalklausul er en bestemmelse, der er meget bredt formuleret, og som derfor kan anvendes på mange forskellige situationer. Den giver domstolene mulighed for at gribe ind over for urimelige aftaler, selvom de ikke strider mod almindelig hæderlighed.",
+    "source_ref": "Aftalelovens generalklausul – § 36"
+  },
+  {
+    "id": 279,
+    "front": "Hvad er en forbrugeraftale?",
+    "back_answer": "En forbrugeraftale er en aftale, som en erhvervsdrivende indgår som led i sit erhverv, når den anden part (forbrugeren) hovedsagelig handler uden for sit erhverv. Formålet er at beskytte forbrugeren som den svage part.",
+    "source_ref": "14.1 Forbrugeraftaleretlige begreber"
+  },
+  {
+    "id": 280,
+    "front": "Hvad er en erhvervsdrivende?",
+    "back_answer": "En erhvervsdrivende er en fysisk eller juridisk person, der udøver virksomhed som handlende, håndværker eller industridrivende, eller udøver et liberalt erhverv. De handler i eget navn eller på vegne af en erhvervsdrivende.",
+    "source_ref": "Markedsføringslov § 2"
+  },
+  {
+    "id": 281,
+    "front": "Hvad er en vare med digitale elementer?",
+    "back_answer": "En vare med digitale elementer er en løsøregenstand, der integrerer eller er indbyrdes forbundet med digitalt indhold eller en digital tjeneste på en sådan måde, at fraværet af det digitale indhold eller den digitale tjeneste ville forhindre genstanden i at opfylde sin funktion.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 282,
+    "front": "Hvad er digitalt indhold?",
+    "back_answer": "Digitalt indhold er data, der fremstilles og leveres i digital form. Det kan være fx musiktjenester, sociale medier eller software. Beskyttelsen gælder, uanset om der betales et pengebeløb for tjenesten, eller om den er gratis.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 283,
+    "front": "Hvad er en digital tjeneste?",
+    "back_answer": "En digital tjeneste er en tjeneste, der gør det muligt at generere, behandle, lagre eller få adgang til data i digital form, eller som muliggør deling af eller enhver anden form for interaktion med data i digital form, som uploades eller genereres af brugere af den pågældende tjeneste.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 284,
+    "front": "Hvad er et køb?",
+    "back_answer": "Et køb er en gensidig bebyrdende aftale, hvor en sælger overdrager en vare (et aktiv) til en køber mod, at køberen overdrager penge, altså betaler prisen for varen. Køber bliver ejer af den købte vare.",
+    "source_ref": "15.1 Køberetlige begreber"
+  },
+  {
+    "id": 285,
+    "front": "Hvad er handelskøb?",
+    "back_answer": "Handelskøb er køb, som indgås mellem handlende i eller for deres bedrift. Køber skal enten anvende det købte i sin virksomhed eller sælge det videre. Reglerne for handelskøb er deklaratoriske.",
+    "source_ref": "Købelov § 4"
+  },
+  {
+    "id": 286,
+    "front": "Hvad er civilkøb?",
+    "back_answer": "Civilkøb er en købeaftale, der hverken er et forbrugerkøb eller et handelskøb. Det er typisk en aftale, der indgås mellem to private personer, fx et køb eller salg gennem DBA. Reglerne for civilkøb reguleres af reglerne om handelskøb med enkelte undtagelser.",
+    "source_ref": "Civilkøb"
+  },
+  {
+    "id": 287,
+    "front": "Hvad er specieskøb?",
+    "back_answer": "Specieskøb er en købeaftale, der er indgået om en individuelt bestemt genstand. Der findes kun den ene genstand, der kan opfylde aftalen, og sælger kan ikke vælge at levere en anden genstand end netop den, aftalen vedrører.",
+    "source_ref": "Specieskøb"
+  },
+  {
+    "id": 288,
+    "front": "Hvad er genuskøb?",
+    "back_answer": "Genuskøb er et køb af varer bestemt efter art, hvor der købes en del af en mængde. Der er flere af samme slags, og sælger har mulighed for at vælge varen inden for den aftalte art. Hvis en genusgenstand ødelægges, har sælgeren mulighed for at skaffe en anden tilsvarende.",
+    "source_ref": "Genuskøb"
+  },
+  {
+    "id": 289,
+    "front": "Hvad er sælgers pligter i et køb?",
+    "back_answer": "Sælgers vigtigste pligter er at levere den rigtige vare med hensyn til kvalitet og kvantitet, på det rigtige sted og på det rigtige tidspunkt. Sælger har også en oplysningspligt over for køber.",
+    "source_ref": "15.2 Sælgers pligter"
+  },
+  {
+    "id": 290,
+    "front": "Hvad er levering i køberetten?",
+    "back_answer": "Levering er et vigtigt begreb i køberetten, idet risikoen for varens hændelige undergang eller beskadigelse overgår fra sælger til køber ved leveringen. Levering sker, når varen er stillet til rådighed for køber.",
+    "source_ref": "Levering"
+  },
+  {
+    "id": 291,
+    "front": "Hvad er fordringshavermora?",
+    "back_answer": "Fordringshavermora foreligger, hvis sælger ikke kan komme til at levere som aftalt pga. købers forhold, fx at køber ikke afhenter eller modtager varen til den aftalte tid. Risikoen for varens hændelige undergang overgår fra sælger til køber.",
+    "source_ref": "Fordringshavermora"
+  },
+  {
+    "id": 292,
+    "front": "Hvad er distancehandel?",
+    "back_answer": "Distancehandel, også kaldet forsendelseskøb, er når varen skal bringes uden for sælgers plads. Leveringsstedet er hos den første fremmede fragtfører, og risikoen overgår fra sælger til køber, når varen afleveres til fragtføreren.",
+    "source_ref": "Distancehandel"
+  },
+  {
+    "id": 293,
+    "front": "Hvad er købers pligter i et køb?",
+    "back_answer": "Købers vigtigste pligt er at betale den rette købesum med de rigtige betalingsmidler, til rette betalingstid, til rette kreditor og på rette betalingssted.",
+    "source_ref": "17.2 Købers pligter"
+  },
+  {
+    "id": 294,
+    "front": "Hvad er sælgers misligholdelse?",
+    "back_answer": "Sælgers misligholdelse foreligger, hvis sælger ikke overholder købeaftalen, fx ved at levere varen for sent (forsinkelse) eller ved at levere en vare, der lider af en mangel (mangelfuld vare) eller ved vanhjemmel (sælger ejer ikke varen).",
+    "source_ref": "17.3 Sælgers misligholdelse"
+  },
+  {
+    "id": 295,
+    "front": "Hvad er købers misligholdelsesbeføjelser?",
+    "back_answer": "Hvis sælger misligholder købeaftalen, har køber mulighed for at reagere med misligholdelsesbeføjelser. Køber kan vælge at fastholde købet (kræve levering, omlevering, afhjælpning, forholdsmæssigt afslag), hæve købet eller kræve erstatning for tab.",
+    "source_ref": "17.3 Sælgers misligholdelse"
+  },
+  {
+    "id": 296,
+    "front": "Hvad er reklamationsret?",
+    "back_answer": "Reklamationsret er en ufravigelig rettighed til at klage over en vare, hvis den lider af en mangel. Forbrugeren skal reklamere inden rimelig tid efter, at manglen er konstateret, og senest inden to år efter leveringen.",
+    "source_ref": "15.4.4 Reklamation og garanti"
+  },
+  {
+    "id": 297,
+    "front": "Hvad er garanti?",
+    "back_answer": "En garanti er en ekstra service, hvorefter sælger stiller forbrugeren væsentligt bedre, end Købeloven allerede gør. Garantien er en del af købeaftalen og skal præcist oplyse, hvordan den forbedrer forbrugerens stilling.",
+    "source_ref": "15.4.4 Reklamation og garanti"
+  },
+  {
+    "id": 298,
+    "front": "Hvad er markedsføringsret?",
+    "back_answer": "Markedsføringsret regulerer, hvordan virksomheder må markedsføre sig, med det formål at beskytte forbrugere, erhvervsdrivende og almene samfundsinteresser. Loven stiller krav til god markedsføringsskik, prisoplysninger, skjult reklame og reklamer rettet mod børn og unge.",
+    "source_ref": "16. Markedsføringsret"
+  },
+  {
+    "id": 299,
+    "front": "Hvad er god markedsføringsskik?",
+    "back_answer": "God markedsføringsskik er en overordnet retlig standard, der kræver, at erhvervsdrivende udviser ordentlig og rimelig adfærd i deres markedsføring. Den omfatter alt, hvad en erhvervsdrivende gør for at fremme kendskab til og/eller salg af et produkt.",
+    "source_ref": "16.1 Markedsføringslovens formål og definitioner"
+  },
+  {
+    "id": 300,
+    "front": "Hvad er skjult reklame?",
+    "back_answer": "Skjult reklame er, når en reklame camoufleres, så det ikke er tydeligt for forbrugeren, at der er tale om markedsføring. Markedsføringsloven kræver, at al reklame tydeligt skal markeres som reklame, fx med ordene 'reklame' eller 'annonce'.",
+    "source_ref": "16.5 Skjult reklame – reklameidentifikation"
+  },
+  {
+    "id": 301,
+    "front": "Hvad er sammenlignende reklame?",
+    "back_answer": "Sammenlignende reklame er en markedsføring, hvor et produkt fremhæves ved at sammenligne det med et eller flere konkurrerende produkter. Det er lovligt, hvis det opfylder en række krav, fx at det ikke er vildledende, nedvurderer konkurrenters produkter eller skaber forveksling.",
+    "source_ref": "16.6 Sammenlignende reklamer"
+  },
+  {
+    "id": 302,
+    "front": "Hvad er uanmodet henvendelse?",
+    "back_answer": "Uanmodet henvendelse er, når en erhvervsdrivende retter henvendelse til en forbruger via elektronisk post, automatisk opkaldssystem eller telefax uden forbrugerens forudgående samtykke. Det er populært kaldet SPAM og er ulovligt.",
+    "source_ref": "16.7 Uanmodet henvendelse"
+  },
+  {
+    "id": 303,
+    "front": "Hvad er tilgift?",
+    "back_answer": "Tilgift betyder, at kunden får tilbudt en ekstra vare gratis ved køb af en anden vare. Det er lovligt, hvis den erhvervsdrivende tydeligt oplyser forbrugeren om værdien af begge varer og ikke har sat prisen op i anledning af markedsføringstiltaget.",
+    "source_ref": "Tilgift"
+  },
+  {
+    "id": 304,
+    "front": "Hvad er konkurrencer i markedsføring?",
+    "back_answer": "Ved konkurrencer i markedsføring skal forbrugeren have klare informationer om præmiernes antal og værdi, grundlaget for at finde vinderne, vurdering af vinderchance, hvornår vinderne findes, og hvem der står bag konkurrencen. Det er vigtigt at få samtykke til markedsføringsmateriale.",
+    "source_ref": "Konkurrencer"
+  },
+  {
+    "id": 305,
+    "front": "Hvad er rabatter og mængdebegrænsning i markedsføring?",
+    "back_answer": "Ved rabatter skal forbrugeren vide, hvordan rabatten opnås og hvilke betingelser, der stilles. Mængdebegrænsning er, når sælger oplyser, at der max. sælges et bestemt antal varer pr. kunde. Det er lovligt, hvis forbrugeren klart oplyses om betingelserne.",
+    "source_ref": "Rabatter og mængdebegrænsning"
+  },
+  {
+    "id": 306,
+    "front": "Hvad er gennemsigtighed i markedsføring?",
+    "back_answer": "Gennemsigtighed i markedsføring betyder, at alle for forbrugeren relevante oplysninger skal være præcist angivet i forbindelse med selve markedsføringen. Det er den erhvervsdrivendes pligt at sikre gennemsigtighed, så forbrugeren kan træffe sin købsbeslutning på et reelt og veloplyst grundlag.",
+    "source_ref": "Gennemsigtighed"
+  },
+  {
+    "id": 307,
+    "front": "Hvad er kredit?",
+    "back_answer": "Kredit betyder, at en vare overgives til en forbruger uden, at sælger samtidig får betaling, eller at en kreditgiver stiller et beløb til rådighed for låntager, der så skal betale det tilbage senere.",
+    "source_ref": "19. Kreditaftaler"
+  },
+  {
+    "id": 308,
+    "front": "Hvad er kreditværdighed?",
+    "back_answer": "Kreditværdighed er en vurdering af en debitors økonomiske forhold, herunder indtægtsforhold, formueforhold og troværdighed, som en kreditor foretager for at vurdere risikoen ved at give kredit. Kreditor har pligt til at foretage en reel kreditvurdering.",
+    "source_ref": "Kreditværdighed"
+  },
+  {
+    "id": 309,
+    "front": "Hvad er gældsregistre?",
+    "back_answer": "Gældsregistre, fx Experian (RKI), kan modtage anmeldelse fra kreditorer om debitorer, der ikke betaler deres gæld til tiden. Formålet er at advare andre kreditorer om, at den anmeldte debitor er en dårlig betaler.",
+    "source_ref": "Gældsregistre"
+  },
+  {
+    "id": 310,
+    "front": "Hvad er pant?",
+    "back_answer": "Pant er en form for kreditsikring, hvor kreditor får sikkerhed i et aktiv, som debitor ejer. Panteretten giver kreditor en fortrinsret til pantets værdi forud for andre kreditorer, hvis debitor ikke betaler.",
+    "source_ref": "21. Pant i forbrugerforhold"
+  },
+  {
+    "id": 311,
+    "front": "Hvad er håndpant?",
+    "back_answer": "Håndpant er en panteform, hvor det pantsatte aktiv skal fratages pantsætteren og opbevares hos panthaveren eller en tredjemand. Der kræves en effektiv rådighedsberøvelse for at sikre panthaverens ret.",
+    "source_ref": "21.2.1 Håndpant i løsøre"
+  },
+  {
+    "id": 312,
+    "front": "Hvad er underpant?",
+    "back_answer": "Underpant er en panteform, hvor rådigheden over det pantsatte aktiv forbliver hos pantsætteren. Det er en hensigtsmæssig form for pantsætning, da pantsætteren fortsat kan anvende genstanden.",
+    "source_ref": "21.2.2 Underpant i løsøre"
+  },
+  {
+    "id": 313,
+    "front": "Hvad er sikringsakter?",
+    "back_answer": "Sikringsakter er de handlinger, panthaver bør/skal gøre for at sikre sin ret over pantet i forhold til andre kreditorer og aftaleerhververe. Eksempler inkluderer tinglysning og effektiv rådighedsberøvelse.",
+    "source_ref": "21.2 Pantformer og sikringsakter"
+  },
+  {
+    "id": 314,
+    "front": "Hvad er tinglysning?",
+    "back_answer": "Tinglysning er en sikringsakt, der indebærer registrering af rettigheder (fx panteret, ejendomsret) i et offentligt register. Tinglysning sikrer, at panthaverens ret opnår beskyttelse over for andre, der senere får ret til samme aktiv.",
+    "source_ref": "22. Tinglysning"
+  },
+  {
+    "id": 315,
+    "front": "Hvad er prioritetsvirkning?",
+    "back_answer": "Prioritetsvirkning er et overordnet princip i dansk ret, der betyder, at den, der først får tinglyst sin ret (i god tro), vinder over andre med utinglyste og senere tinglyste rettigheder. 'Først i tid, bedst i ret'.",
+    "source_ref": "22.2 Prioritetsvirkningen – når flere får pant i samme aktiv"
+  },
+  {
+    "id": 316,
+    "front": "Hvad er fysiske personers hæftelse?",
+    "back_answer": "Fysiske personers hæftelse betyder, at enkeltpersoner som udgangspunkt hæfter personligt med hele deres formue for den gæld, de selv stifter. Det betyder, at kreditorer kan søge sig fyldestgjort i alle debitors aktiver.",
+    "source_ref": "23. Fysiske personers hæftelse"
+  },
+  {
+    "id": 317,
+    "front": "Hvad er formuefællesskab?",
+    "back_answer": "Formuefællesskab opstår, når to personer bliver gift. Det betyder, at ægtefællernes bodele (aktiver og passiver) skal ligedeles ved ægteskabets ophør, fx ved skilsmisse eller død.",
+    "source_ref": "23.3.1 Formuefællesskab"
+  },
+  {
+    "id": 318,
+    "front": "Hvad er særråden?",
+    "back_answer": "Særråden er den hovedregel, der medfører, at hver ægtefælle råder ubegrænset over sin egen bodel (aktiver og passiver). Det betyder, at den ægtefælle, der ejer et aktiv, frit kan disponere over det, fx sælge eller pantsætte det.",
+    "source_ref": "23.3.2 Særråden"
+  },
+  {
+    "id": 319,
+    "front": "Hvad er særhæften?",
+    "back_answer": "Særhæften er den regel, der betyder, at hver ægtefælle hæfter for sin egen gæld med sine egne aktiver, uanset om gælden er opstået før eller under ægteskabet. Ægteskabet har reelt ingen betydning for den enkeltes gældsstiftelse.",
+    "source_ref": "23.3.3 Særhæften"
+  },
+  {
+    "id": 320,
+    "front": "Hvad er særeje?",
+    "back_answer": "Særeje er en undtagelse fra hovedreglen om formuefællesskab, der betyder, at særejeaktiver ikke deles ved ægteskabets ophør. Særeje kan opstå ved aftale mellem ægtefællerne (ægtepagt) eller ved tredjemands bestemmelse (testamente eller gavebrev).",
+    "source_ref": "23.3.4 Særeje"
+  },
+  {
+    "id": 321,
+    "front": "Hvad er bodeling?",
+    "back_answer": "Bodeling er den proces, der gennemføres, når et ægteskab ophører pga. separation, skilsmisse eller død. Formuefællesskabets delingsformuer ligedeles, og hver ægtefælles nettobodel beregnes.",
+    "source_ref": "23.3.5 Ægteskabets ophør – bodeling"
+  },
+  {
+    "id": 322,
+    "front": "Hvad er papirløst samlivsforhold?",
+    "back_answer": "Et papirløst samlivsforhold er, når to mennesker bor på samme adresse og lever sammen i et forhold, der kan sammenlignes med ægteskabet, men uden at være gift. Der findes ikke en lov, der regulerer papirløst samlevendes forhold, og der opstår intet formuefællesskab.",
+    "source_ref": "23.4 Papirløst samlivsforhold"
+  },
+  {
+    "id": 323,
+    "front": "Hvad er eksekutionsgrundlag?",
+    "back_answer": "Et eksekutionsgrundlag er et klart bevis på, at debitor skylder penge, og det er et fundament, der kræves, inden en fogedsag kan starte. Eksempler inkluderer domme, retsforlig, frivillige forlig, gældsbreve og pantebreve.",
+    "source_ref": "24.2 Eksekutionsgrundlag"
+  },
+  {
+    "id": 324,
+    "front": "Hvad er udlæg?",
+    "back_answer": "Udlæg er en sikkerhed for kreditor, der foretages i debitors aktiver i Fogedretten. Det kaldes også retspant, og udlægshaveren får en fortrinsret til aktivets værdi i forhold til debitors andre kreditorer.",
+    "source_ref": "24.5 Retsvirkning af udlæg"
+  },
+  {
+    "id": 325,
+    "front": "Hvad er tvangsauktion?",
+    "back_answer": "Tvangsauktion er en proces, hvor et aktiv sælges via Fogedretten for at skaffe midler til dækning af kreditors tilgodehavende, hvis debitor ikke betaler sin gæld. Aktivet sælges for højeste bud.",
+    "source_ref": "24.6 Tvangsauktion"
+  },
+  {
+    "id": 326,
+    "front": "Hvad er den forenklede inkassoproces?",
+    "back_answer": "Den forenklede inkassoproces er et supplement til den måde at inddrive et tilgodehavende på, der gør det lettere for kreditorer at inddrive deres tilgodehavender hos debitorer. Den kan anvendes ved pengekrav på højst 100.000 kr., når der ikke forventes indsigelser fra debitor.",
+    "source_ref": "24.7 Den forenklede inkassoproces"
+  },
+  {
+    "id": 327,
+    "front": "Hvad er et betalingspåkrav?",
+    "back_answer": "Et betalingspåkrav er et skema, der kan rekvireres i Fogedretten, udfyldes og sendes til Fogedretten uden bilag. Det bruges til at indlede den forenklede inkassoproces og skal indeholde oplysninger om kravet og fristen for betaling.",
+    "source_ref": "Betalingspåkravet"
+  },
+  {
+    "id": 328,
+    "front": "Hvad er umiddelbare fogedforretninger?",
+    "back_answer": "Umiddelbare fogedforretninger er sager, der drejer sig om at gennemføre andre krav end inddrivelse af pengekrav, fx tilbagetagelse af solgte varer ved ejendomsforbehold eller udsættelse af lejere. Der kræves ikke domstolsprøvelse.",
+    "source_ref": "24.8 Umiddelbare fogedforretninger"
+  },
+  {
+    "id": 329,
+    "front": "Hvad er et foreløbigt retsmiddel?",
+    "back_answer": "Et foreløbigt retsmiddel er et retsskridt i form af arrest, der foretages uden et eksekutionsgrundlag. Det kan benyttes, når der er tale om et pengekrav, og der er behov for at opnå en sikkerhed, selvom der endnu ikke foreligger et eksekutionsgrundlag.",
+    "source_ref": "24.9 Foreløbigt retsmiddel"
+  },
+  {
+    "id": 330,
+    "front": "Hvad er en insolvenserklæring?",
+    "back_answer": "En insolvenserklæring er en erklæring, debitor kan afgive i Fogedretten, hvis han ikke kan betale, hvad han skylder, og han ikke ejer aktiver, der kan foretages udlæg i. Den freder debitor for yderligere møder i Fogedretten i seks måneder.",
+    "source_ref": "Insolvenserklæring"
+  },
+  {
+    "id": 331,
+    "front": "Hvad er påvisningsret?",
+    "back_answer": "Påvisningsret er debitors ret til selv at pege på, hvilke aktiver der skal foretages udlæg i. Fogedretten påser, at udlægget så vidt muligt sker i de aktiver, skyldneren og hans husstand bedst kan undvære.",
+    "source_ref": "Påvisningsret"
+  },
+  {
+    "id": 332,
+    "front": "Hvad er en påkravsskrivelse?",
+    "back_answer": "En påkravsskrivelse er en rykkerskrivelse til debitor om at betale det skyldige beløb inden mindst 10 dage. Den skal indeholde alle oplysninger, der er nødvendige for, at debitor kan vurdere, om det er det rigtige beløb, han afkræves.",
+    "source_ref": "Påkravsskrivelse"
+  },
+  {
+    "id": 333,
+    "front": "Hvad er et rykkergebyr?",
+    "back_answer": "Et rykkergebyr er et gebyr på højst 100 kr. inkl. moms, som kreditor må opkræve pr. rykkerskrivelse, dog maksimalt 3 gange. Det er en kompensation for kreditors udgifter i forbindelse med misligholdelsen.",
+    "source_ref": "Rykkergebyr i forbrugerforhold"
+  },
+  {
+    "id": 334,
+    "front": "Hvad er trangsbeneficiet?",
+    "back_answer": "Trangsbeneficiet er en regel i Retsplejelovens § 509, der betyder, at der ikke kan foretages udlæg i aktiver, der er nødvendige for, at debitor kan leve et beskedent hjem og en beskeden levefod. Det beskytter debitors basale behov.",
+    "source_ref": "Aktiver, der ikke kan foretages udlæg i"
+  }
+]
