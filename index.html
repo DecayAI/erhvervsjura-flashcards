@@ -22,10 +22,29 @@
     <button id="prev">⟵ Forrige</button>
     <button id="next">Næste ⟶</button>
     <button id="shuffle">Bland</button>
+    <button id="ask">Spørg Chatbot</button>
   </div>
 
   <!-- Progress indicator -->
   <p id="progress"></p>
+
+  <!-- NEW_CHAT_MODAL -->
+  <div id="chatModal" class="hidden">
+    <div class="chat-window">
+      <div class="chat-header">
+        <span>JuraTutor</span>
+        <div class="chat-header-buttons">
+          <button id="newConversation" aria-label="Ny samtale" title="Start ny samtale">🔄</button>
+          <button id="closeChat" aria-label="Luk chat">&times;</button>
+        </div>
+      </div>
+      <div id="chatMessages" class="chat-messages"></div>
+      <form id="chatForm" class="chat-form">
+        <input id="chatInput" type="text" placeholder="Skriv dit spørgsmål…" required autocomplete="off" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
 
   <!-- External script -->
   <script src="script.js"></script>
