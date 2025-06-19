@@ -1,5 +1,1205 @@
 [
   {
+    "id": 1,
+    "front": "Hvordan foregår en retssag?",
+    "back_answer": "En retssag starter med en stævning, efterfulgt af udveksling af processkrifter og bevisførelse, og afsluttes med en dommerafgørelse. Processen er reguleret af retsplejeloven.",
+    "source_ref": "Velkommen til erhvervsjura C"
+  },
+  {
+    "id": 2,
+    "front": "Hvad skal der til for, at man kan få erstatning?",
+    "back_answer": "For at få erstatning skal der foreligge et ansvarsgrundlag (culpa eller objektivt ansvar), et økonomisk tab, kausalitet (årsagssammenhæng) og adækvans (påregnelighed).",
+    "source_ref": "Velkommen til erhvervsjura C"
+  },
+  {
+    "id": 3,
+    "front": "Hvornår er der indgået en juridisk bindende aftale?",
+    "back_answer": "En juridisk bindende aftale er indgået, når et tilbud er accepteret rettidigt og overensstemmende. Tilbudsgiver er bundet, når tilbuddet er kommet til tilbudsmodtagers kundskab, og acceptanten er bundet, når accepten er kommet frem til tilbudsgiver.",
+    "source_ref": "Velkommen til erhvervsjura C"
+  },
+  {
+    "id": 4,
+    "front": "I hvilke situationer er der tale om greenwashing?",
+    "back_answer": "Greenwashing foreligger, når en markedsføring giver forbrugeren et ikke-korrekt indtryk af, at et produkt er godt for klima og miljø, eller at det er bæredygtigt, uden at dette kan dokumenteres.",
+    "source_ref": "Velkommen til erhvervsjura C"
+  },
+  {
+    "id": 5,
+    "front": "Er der forskel på reglerne, når du handler online og i fysiske butikker?",
+    "back_answer": "Ja, der er forskel. Onlinekøb (fjernsalg) er omfattet af Forbrugeraftaleloven, som giver forbrugeren en 14-dages fortrydelsesret, mens køb i fysiske butikker som udgangspunkt ikke har en lovbestemt fortrydelsesret.",
+    "source_ref": "Velkommen til erhvervsjura C"
+  },
+  {
+    "id": 6,
+    "front": "Og hvad må du dele på sociale medier?",
+    "back_answer": "Du må dele dine tanker og meninger, men ytringsfriheden er begrænset af hensynet til andre. Du må ikke dele injurierende, diskriminerende eller strafbart indhold, som kan krænke andres ære eller privatliv.",
+    "source_ref": "Velkommen til erhvervsjura C"
+  },
+  {
+    "id": 7,
+    "front": "Hvad siger Markedsføringsloven om skjult reklame?",
+    "back_answer": "Markedsføringsloven kræver, at al reklame tydeligt skal markeres som reklame, så forbrugeren er klar over den kommercielle hensigt. Skjult reklame, hvor den kommercielle hensigt camoufleres, er ulovligt og kan medføre bødestraf.",
+    "source_ref": "Eksempel: Markedsføringsloven om skjult reklame"
+  },
+  {
+    "id": 8,
+    "front": "Hvad er juridisk metode?",
+    "back_answer": "Juridisk metode er den fremgangsmåde, som jurister anvender for at finde en løsning på et juridisk problem. Den består af seks trin: definere juridisk område, formulere problemstilling, angive retskilder, redegøre for teori, vurdere teori i forhold til fakta og afgive begrundet konklusion.",
+    "source_ref": "Velkommen til erhvervsjura C"
+  },
+  {
+    "id": 9,
+    "front": "Hvad er formålet med faget erhvervsjura C?",
+    "back_answer": "Formålet er at introducere til det danske retssystem og centrale erhvervsretlige regler, der gælder for borgere og virksomheder i Danmark, samt at udvikle studerendes juridiske kompetencer og forståelse for demokrati.",
+    "source_ref": "Velkommen til erhvervsjura C"
+  },
+  {
+    "id": 10,
+    "front": "Hvad er etik, moral og jura?",
+    "back_answer": "Etik og moral er uskrevne regler for god opførsel, mens jura er formelt vedtagne regler (love). Jura er i tæt samspil med etik og moral, da de ofte danner grundlag for lovgivning.",
+    "source_ref": "Kapitel 1 – Demokrati, etik, moral og jura"
+  },
+  {
+    "id": 11,
+    "front": "Hvad er demokrati og medborgerskab?",
+    "back_answer": "Demokrati er folkestyre, hvor love vedtages af Folketinget. Medborgerskab betyder, at man som borger tager aktivt del i demokratiet, fx gennem deltagelse i valg og offentlig debat, for at sikre et velfungerende samfund.",
+    "source_ref": "1.1 Demokrati og medborgerskab"
+  },
+  {
+    "id": 12,
+    "front": "Hvad er en retsstat?",
+    "back_answer": "En retsstat er et land, hvor lovgivningen vedtages af folkevalgte repræsentanter, og hvor borgerne har borger- og menneskerettigheder. Den er karakteriseret ved lighed for loven og uafhængige domstole, der sikrer retssikkerhed.",
+    "source_ref": "1.2 Retsstat og retssikkerhed"
+  },
+  {
+    "id": 13,
+    "front": "Hvad er digital dannelse?",
+    "back_answer": "Digital dannelse handler om at forstå og agere ansvarligt i den digitale verden, herunder regler for brug af digitale platforme, databeskyttelse, kunstig intelligens og strafbare handlinger.",
+    "source_ref": "2. Digital dannelse"
+  },
+  {
+    "id": 14,
+    "front": "Hvad er retskilder?",
+    "back_answer": "Retskilder er de regler, der gælder i samfundet, og som anvendes til at løse juridiske problemstillinger. De omfatter Grundloven, love, bekendtgørelser, vedtægter, retspraksis, sædvane/kutyme og forholdets natur.",
+    "source_ref": "3. Retskilder"
+  },
+  {
+    "id": 15,
+    "front": "Hvad er erstatningsret?",
+    "back_answer": "Erstatningsret handler om, hvornår man kan få erstatning for et tab, hvis skaden skyldes en handling eller undladelse. Det kræver, at visse betingelser er opfyldt, herunder ansvarsgrundlag, økonomisk tab, kausalitet og adækvans.",
+    "source_ref": "7. Erstatningsret"
+  },
+  {
+    "id": 16,
+    "front": "Hvad er forsikringsret?",
+    "back_answer": "Forsikringsret omhandler regler for forsikringsaftaler og forskellige forsikringsformer. Formålet er at skabe tryghed ved at gardere sig mod økonomisk tab, der kan opstå ved uheld eller skadegørende handlinger.",
+    "source_ref": "8. Forsikringsret"
+  },
+  {
+    "id": 17,
+    "front": "Hvad er aftaleret?",
+    "back_answer": "Aftaleret omfatter regler for indgåelse, fuldmagt og ugyldighed af aftaler. Den handler om, hvorvidt en aftale er juridisk bindende, hvordan indholdet bestemmes, og hvordan den kan håndhæves.",
+    "source_ref": "9. Aftaleret"
+  },
+  {
+    "id": 18,
+    "front": "Hvad er forbrugerret?",
+    "back_answer": "Forbrugerret beskytter forbrugere i aftaler med erhvervsdrivende, især ved køb under særlige omstændigheder som fjernsalg eller uden for forretningssted. Den sikrer forbrugerens rettigheder og mulighed for fortrydelse.",
+    "source_ref": "13. Forbrugerret"
+  },
+  {
+    "id": 19,
+    "front": "Hvad er handelskøb?",
+    "back_answer": "Handelskøb er et køb mellem to erhvervsdrivende, hvor formålet typisk er videresalg eller brug i virksomheden. Reglerne er deklaratoriske, hvilket betyder, at parterne frit kan aftale andet end lovens bestemmelser.",
+    "source_ref": "17. Handelskøb"
+  },
+  {
+    "id": 20,
+    "front": "Hvad er kreditret?",
+    "back_answer": "Kreditret omfatter regler for kreditaftaler, kreditsikring (pant, kaution, ejendomsforbehold) og inddrivelse af gæld. Formålet er at beskytte forbrugere, der låner penge af erhvervsdrivende, og at give kreditorer sikkerhed for deres tilgodehavender.",
+    "source_ref": "18. Kreditret"
+  },
+  {
+    "id": 21,
+    "front": "Hvad er inkasso og fogedret?",
+    "back_answer": "Inkasso er processen for inddrivelse af gæld, når debitor ikke betaler til tiden. Fogedretten er den domstolsafdeling, der hjælper kreditorer med tvangsinddrivelse af tilgodehavender, fx ved udlæg og tvangsauktion.",
+    "source_ref": "24. Inkasso og Fogedret"
+  },
+  {
+    "id": 22,
+    "front": "Hvad er en borgerforslag?",
+    "back_answer": "Et borgerforslag er en ordning, hvor borgere med stemmeret til Folketinget kan fremsætte forslag til emner, Folketinget kan tage op. Hvis forslaget får mindst 50.000 støtter, skal Folketinget tage stilling til det.",
+    "source_ref": "Eksempel: Markedsføringsloven om skjult reklame"
+  },
+  {
+    "id": 23,
+    "front": "Hvad er magtens tredeling?",
+    "back_answer": "Magtens tredeling er en grundlæggende princip i demokratiet, hvor magten er delt mellem den lovgivende (Folketinget), den udøvende (regeringen) og den dømmende (domstolene) magt. Dette sikrer, at ingen instans får for stor magt alene.",
+    "source_ref": "1.1 Demokrati og medborgerskab"
+  },
+  {
+    "id": 24,
+    "front": "Hvad er borgerrettigheder?",
+    "back_answer": "Borgerrettigheder er grundlovssikrede rettigheder, der beskytter borgernes frihed og retsstilling. Eksempler inkluderer personlig frihed, ytringsfrihed, boligens ukrænkelighed og ejendomsret.",
+    "source_ref": "1.1.1 Borgerrettigheder"
+  },
+  {
+    "id": 25,
+    "front": "Hvad er personlig frihed?",
+    "back_answer": "Personlig frihed er en ukrænkelig borgerrettighed, der beskytter borgere mod frihedsberøvelse uden dom. Den omfatter også retten til selv at bestemme, hvor man vil bo og arbejde, og at bekende sig til den religion, man ønsker, under ansvar.",
+    "source_ref": "Personlig frihed"
+  },
+  {
+    "id": 26,
+    "front": "Hvad er ytringsfrihed?",
+    "back_answer": "Ytringsfrihed er retten til frit at tænke, skrive og sige, hvad man mener. Den er afgørende for demokratiet, men er begrænset af hensynet til andre, så den ikke må indebære injurier, diskrimination eller opfordringer til undertrykkelse.",
+    "source_ref": "Ytringsfrihed"
+  },
+  {
+    "id": 27,
+    "front": "Hvad er menneskerettigheder?",
+    "back_answer": "Menneskerettigheder er universelle rettigheder, der beskytter borgernes frihed og øvrige rettigheder på internationalt plan. De er fastsat i konventioner som FN's Verdenserklæring og Den Europæiske Menneskerettighedskonvention.",
+    "source_ref": "1.1.2 Menneskerettigheder"
+  },
+  {
+    "id": 28,
+    "front": "Hvad er retssikkerhedsprincipper?",
+    "back_answer": "Retssikkerhedsprincipper er grundlæggende principper i en retsstat, der sikrer borgernes beskyttelse mod overgreb fra staten og andre borgere. De omfatter offentlighed, mundtlighed, forhandlingsprincip, bevisbyrde, fri bevisbedømmelse og mulighed for appel.",
+    "source_ref": "Domstolenes uafhængighed og retssikkerhedsprincipper"
+  },
+  {
+    "id": 29,
+    "front": "Hvad er lighed for loven?",
+    "back_answer": "Lighed for loven betyder, at en lov gælder for alle personer, der opholder sig i retsstaten, og at alle skal behandles ensartet. Man skal dømmes for, hvad man gør, og ikke hvem man er.",
+    "source_ref": "Lighed for loven"
+  },
+  {
+    "id": 30,
+    "front": "Hvad er proportionalitetsprincippet?",
+    "back_answer": "Proportionalitetsprincippet betyder, at en myndighed, når den træffer en afgørelse i en sag, har pligt til at vælge den mulighed, der er mindst byrdefuld for borgeren.",
+    "source_ref": "Proportionalitetsprincippet"
+  },
+  {
+    "id": 31,
+    "front": "Hvad er legalitetsprincippet?",
+    "back_answer": "Legalitetsprincippet betyder, at en myndighed ikke må foretage et indgreb over for en borger, uden at der er lovhjemmel til det. Der skal altså være en lov, der giver myndigheden mulighed for at begrænse eller forbyde en handling.",
+    "source_ref": "Legalitetsprincippet"
+  },
+  {
+    "id": 32,
+    "front": "Hvad er retsregler?",
+    "back_answer": "Retsregler er nødvendige for at sikre en civiliseret omgangstone og -form mellem borgere. De er formelt vedtaget og skal følges, og overtrædelse kan medføre konsekvenser som straf eller erstatningskrav.",
+    "source_ref": "Jura er læren om lov og ret"
+  },
+  {
+    "id": 33,
+    "front": "Hvad er moral og etik?",
+    "back_answer": "Moral og etik er uskrevne regler, der har stor indflydelse på, hvordan vi opfører os. Moral er læren om, hvad der er det rigtige at sige, gøre og tænke, mens etik handler om, hvordan vi skal leve for at sikre et godt liv.",
+    "source_ref": "Moral og etik"
+  },
+  {
+    "id": 34,
+    "front": "Hvad er CSR (Corporate Social Responsibility)?",
+    "back_answer": "CSR, også kaldet samfundsansvar, social ansvarlighed, bæredygtighed og tredobbelt bundlinje, handler om, at virksomheder udviser ansvarlighed i forhold til det omgivende samfund ved at minimere negative påvirkninger og maksimere positiv værdi for mennesker, miljø og økonomi.",
+    "source_ref": "Eksempel: Lovkrav om etisk/moralsk ansvarlig"
+  },
+  {
+    "id": 35,
+    "front": "Hvad er forbrugermagt?",
+    "back_answer": "Forbrugermagt er forbrugernes evne til at præge udviklingen ved at vælge, hvilke produkter de køber eller fravælger. Dette kan have stor betydning for en virksomheds økonomi og omdømme.",
+    "source_ref": "Eksempel: Forbrugermagt"
+  },
+  {
+    "id": 36,
+    "front": "Hvad er domstolenes uafhængighed?",
+    "back_answer": "Domstolenes uafhængighed betyder, at domstolene er uafhængige af både den lovgivende og den udøvende magt. En dommer kan frit afgøre sager uden risiko for afskedigelse, hvilket sikrer retssikkerhed.",
+    "source_ref": "Domstolenes uafhængighed og retssikkerhedsprincipper"
+  },
+  {
+    "id": 37,
+    "front": "Hvad er de almindelige domstole?",
+    "back_answer": "De almindelige domstole i Danmark består af tre niveauer: Byretterne, Landsretterne og Højesteret. De er kompetente i alle sager, medmindre andet er henlagt til en specialdomstol.",
+    "source_ref": "De almindelige domstole"
+  },
+  {
+    "id": 38,
+    "front": "Hvad er Højesteret?",
+    "back_answer": "Højesteret er Danmarks øverste retlige myndighed, der ligger i København. Den behandler kun ankesager af særlig vigtig eller principiel karakter og består af en præsident og 17 andre højesteretsdommere.",
+    "source_ref": "Højesteret"
+  },
+  {
+    "id": 39,
+    "front": "Hvad er Landsretterne?",
+    "back_answer": "Der er to Landsretter i Danmark: Vestre Landsret i Viborg (dækker Jylland) og Østre Landsret i København (dækker øerne). De afgør sager af tre dommere og er primært ankeinstans for byretsdomme.",
+    "source_ref": "Landsretterne"
+  },
+  {
+    "id": 40,
+    "front": "Hvad er Byretterne?",
+    "back_answer": "Der er én Byret i hver af landets 24 retskredse. Sager afgøres normalt af én dommer, men i principielle sager kan parterne anmode om, at der deltager tre dommere. Byretterne løser mange forskellige retlige opgaver, herunder civile og kriminalsager.",
+    "source_ref": "Byretterne"
+  },
+  {
+    "id": 41,
+    "front": "Hvad er specialdomstole?",
+    "back_answer": "Specialdomstole er kun kompetente i de sager, der særligt er henlagt til dem. De har opbygget særlig ekspertise inden for deres områder, og de juridiske dommere suppleres af lægdommere.",
+    "source_ref": "Specialdomstolene"
+  },
+  {
+    "id": 42,
+    "front": "Hvad er Rigsretten?",
+    "back_answer": "Rigsretten er en ekstraordinær domstol, der behandler sager om ministres ansvar. Dens afgørelser er endelige, hvilket betyder, at en højere instans ikke kan tage stilling til sagen igen.",
+    "source_ref": "Rigsretten"
+  },
+  {
+    "id": 43,
+    "front": "Hvad er Den særlige klageret?",
+    "back_answer": "Den særlige Klageret behandler bl.a. sager om genoptagelse af straffesager samt klager over dommeres adfærd. Dens afgørelser er endelige.",
+    "source_ref": "Den særlige klageret"
+  },
+  {
+    "id": 44,
+    "front": "Hvad er Arbejdsretten?",
+    "back_answer": "Arbejdsretten afgør sager, der er opstået som følge af, at en part har brudt en overenskomst, fx overenskomststridig arbejdsnedlæggelse eller lockout. Dens afgørelser er endelige.",
+    "source_ref": "Arbejdsretten"
+  },
+  {
+    "id": 45,
+    "front": "Hvad er Voldgift?",
+    "back_answer": "En voldgiftsret er en privat domstol, hvor en sag kun kan anlægges, hvis parterne er enige om det på forhånd. Voldgift kan behandle konflikter uden offentlighed og ofte hurtigere end domstolsbehandling.",
+    "source_ref": "Voldgift"
+  },
+  {
+    "id": 46,
+    "front": "Hvad er civile retssager?",
+    "back_answer": "Civile retssager, også kaldet borgerlige retssager, behandler konflikter mellem to parter, fx borgere, erhvervsdrivende eller det offentlige. Parterne kan være fysiske eller juridiske personer.",
+    "source_ref": "5.2 Civile retssager"
+  },
+  {
+    "id": 47,
+    "front": "Hvad er sagsøger og sagsøgte?",
+    "back_answer": "Sagsøger er den part, der vil starte en sag og henvender sig til domstolen. Sagsøgte er modparten, som sagen rejses imod.",
+    "source_ref": "5.2 Civile retssager"
+  },
+  {
+    "id": 48,
+    "front": "Hvad er værneting?",
+    "back_answer": "Værneting er den domstol, hvor en retssag skal anlægges. Det afgøres af to forhold: saglig kompetence (hvilken type ret) og stedlig kompetence (hvilken retskreds).",
+    "source_ref": "Værnetinget"
+  },
+  {
+    "id": 49,
+    "front": "Hvad er saglig kompetence?",
+    "back_answer": "Saglig kompetence handler om, hvilken type ret der skal behandle sagen, fx Byretten, Landsretten eller en specialdomstol. Hovedreglen er, at retssager anlægges ved Byretten.",
+    "source_ref": "Saglig kompetence"
+  },
+  {
+    "id": 50,
+    "front": "Hvad er stedlig kompetence?",
+    "back_answer": "Stedlig kompetence handler om, ved hvilken retskreds sagen skal anlægges, fx Byretten i Odense eller Aalborg. Hovedreglen er sagsøgtes hjemting, altså domstolen i den retskreds, hvor sagsøgte bor eller driver sin forretning.",
+    "source_ref": "Stedlig kompetence"
+  },
+  {
+    "id": 51,
+    "front": "Hvad er en stævning?",
+    "back_answer": "En stævning er det dokument, sagsøger indleverer til retten for at indlede en sag. Den skal indeholde parternes navne, angivelse af ret, sagsøgerens påstand og en kort fremstilling af sagens kendsgerninger.",
+    "source_ref": "Retssagens dokumenter"
+  },
+  {
+    "id": 52,
+    "front": "Hvad er en påstand i en retssag?",
+    "back_answer": "En påstand er det krav, som en part ønsker at få opfyldt ved dommen. Der kan fremsættes flere påstande, fx en principal (primær) og en subsidiær (sekundær) påstand.",
+    "source_ref": "Retssagens dokumenter"
+  },
+  {
+    "id": 53,
+    "front": "Hvad er forkyndelse?",
+    "back_answer": "Forkyndelse er rettens meddelelse til sagsøgte om, at en sag er anlagt mod ham. Det sker for at orientere sagsøgte om sagens anlæg og fristen for indlevering af svarskrift.",
+    "source_ref": "Forkyndelse"
+  },
+  {
+    "id": 54,
+    "front": "Hvad er en udeblivelsesdom?",
+    "back_answer": "En udeblivelsesdom afsiges, hvis sagsøgte ikke sender et svarskrift eller ikke møder op til hovedforhandlingen. Dommen følger sagsøgers påstand.",
+    "source_ref": "Det videre sagsforløb"
+  },
+  {
+    "id": 55,
+    "front": "Hvad er processkrifter?",
+    "back_answer": "Processkrifter er de skriftlige dokumenter, der udveksles mellem parterne i en retssag, fx stævning, svarskrift, replik og duplik. De indeholder parternes påstande og argumenter.",
+    "source_ref": "Retssagens dokumenter"
+  },
+  {
+    "id": 56,
+    "front": "Hvad er syn og skøn?",
+    "back_answer": "Syn og skøn er en proces, hvor en neutral ekspert (syns- og skønsmand) vurderer tekniske eller faglige forhold i en sag og afgiver en rapport, der kan indgå i grundlaget for sagens afgørelse.",
+    "source_ref": "Eksempel: Syn og skøn"
+  },
+  {
+    "id": 57,
+    "front": "Hvad er hovedforhandling?",
+    "back_answer": "Hovedforhandlingen er det sidste retsmøde i en retssag, hvor parterne nedlægger deres påstande, sagen forelægges, bevisførelsen gennemføres, og advokaterne procederer. Herefter afsiger dommeren dom.",
+    "source_ref": "Hovedforhandlingen"
+  },
+  {
+    "id": 58,
+    "front": "Hvad er anbringender?",
+    "back_answer": "Anbringender er de juridiske argumenter, en part bruger til at understøtte sin påstand i en retssag. Hver advokat fortæller dommeren, hvilke love og regler der påberåbes til støtte for påstanden.",
+    "source_ref": "Hovedforhandlingen"
+  },
+  {
+    "id": 59,
+    "front": "Hvad er bevisbyrde?",
+    "back_answer": "Bevisbyrden betyder, at den part, der har nedlagt en påstand, selv skal bevise eller sandsynliggøre rigtigheden af den. Hvis parten ikke kan løfte bevisbyrden, taber han sagen.",
+    "source_ref": "Bevisbyrde"
+  },
+  {
+    "id": 60,
+    "front": "Hvad er fri bevisbedømmelse?",
+    "back_answer": "Fri bevisbedømmelse betyder, at dommeren selv bestemmer, hvilken vægt et bevis skal have i sagen, fx hvilket vidne han mener er mest troværdigt. Dommeren er ikke bundet af faste regler for bevisvurdering.",
+    "source_ref": "Fri bevisbedømmelse"
+  },
+  {
+    "id": 61,
+    "front": "Hvad er appel?",
+    "back_answer": "Appel er retten til at indbringe en afgørelse for en højere instans, typisk fra Byretten til Landsretten eller fra Landsretten til Højesteret. Det giver parterne mulighed for at få sagen prøvet to gange af retssikkerhedsmæssige grunde.",
+    "source_ref": "5.4 Appel"
+  },
+  {
+    "id": 62,
+    "front": "Hvad er Procesbevillingsnævnet?",
+    "back_answer": "Procesbevillingsnævnet er en instans, der kan give tilladelse til anke af domme, især hvis sagen er af principiel karakter eller af meget stor vigtighed for parten. Det sikrer, at kun de mest relevante sager når de højere instanser.",
+    "source_ref": "Procesbevillingsnævnet"
+  },
+  {
+    "id": 63,
+    "front": "Hvad er klagenævn?",
+    "back_answer": "Klagenævn er oprettet for at behandle småsager på en lempeligere og hurtigere måde end det ordinære domstolssystem. Forbrugerklagenævnet er et statsligt klagenævn, der behandler klager over varer, arbejds- og tjenesteydelser.",
+    "source_ref": "5.5 Klagenævn og voldgift"
+  },
+  {
+    "id": 64,
+    "front": "Hvad er retsmægling?",
+    "back_answer": "Retsmægling er en mulighed for at undgå en retssag ved at drøfte en uenighed sammen med en mægler, som er en dommer eller advokat med uddannelse i mægling. Mægleren hjælper parterne med at finde en løsning på konflikten.",
+    "source_ref": "5.6 Retsmægling"
+  },
+  {
+    "id": 65,
+    "front": "Hvad er et retsforlig?",
+    "back_answer": "Et retsforlig er en aftale, der indgås mellem parterne i en retssag, ofte med dommerens mægling. Forliget indføres i retsbogen og kan ikke appelleres, hvilket afslutter sagen endeligt.",
+    "source_ref": "Retsforlig"
+  },
+  {
+    "id": 66,
+    "front": "Hvad er konfliktmægling og mediation?",
+    "back_answer": "Konfliktmægling og mediation er processer, hvor en uvildig mellemmand hjælper parterne med at nå til enighed om et kompromis, der afværger en retssag. Mediation foregår typisk uden for retssystemet.",
+    "source_ref": "Konfliktmægling og mediation"
+  },
+  {
+    "id": 67,
+    "front": "Hvad er retshjælpsforsikring?",
+    "back_answer": "Retshjælpsforsikring er en dækning i de fleste forsikringer (fx familie- eller husforsikring), der dækker forsikringstagerens udgifter til advokat mv. i forbindelse med en retssag.",
+    "source_ref": "Retshjælpsforsikring"
+  },
+  {
+    "id": 68,
+    "front": "Hvad er fri proces?",
+    "back_answer": "Fri proces er en ordning, hvor staten dækker en persons sagsomkostninger, hvis vedkommende ikke selv har økonomisk mulighed for at dække dem. Det sikrer, at ubemidlede kan få prøvet deres sag ved retten.",
+    "source_ref": "Fri proces"
+  },
+  {
+    "id": 69,
+    "front": "Hvad er offentlig retshjælp?",
+    "back_answer": "Offentlig retshjælp er en ordning, hvor advokater yder juridisk rådgivning med tilskud fra det offentlige. Det er typisk en mindre økonomisk hjælp, der ofte kun dækker en mundtlig konsultation.",
+    "source_ref": "Offentlig retshjælp"
+  },
+  {
+    "id": 70,
+    "front": "Hvad er ansvarsgrundlag?",
+    "back_answer": "Ansvarsgrundlag er en af hovedbetingelserne for at kunne kræve erstatning. Det kan enten være culpa (skyld) eller objektivt ansvar (ansvar uden skyld).",
+    "source_ref": "7.1 Oversigt over erstatningsbetingelserne"
+  },
+  {
+    "id": 71,
+    "front": "Hvad er økonomisk tab?",
+    "back_answer": "Økonomisk tab er en af betingelserne for erstatning, og det betyder, at den skete skade skal have medført et tab, der kan opgøres i penge. Kun økonomisk værdi erstattes, og man må ikke tjene på erstatning (vindingsforbuddet).",
+    "source_ref": "7.1 Oversigt over erstatningsbetingelserne"
+  },
+  {
+    "id": 72,
+    "front": "Hvad er kausalitet?",
+    "back_answer": "Kausalitet betyder årsagssammenhæng, og det er en betingelse for erstatning. Skadevolderens handling skal være årsag til skaden, og skadelidte skal bevise denne sammenhæng.",
+    "source_ref": "7.1 Oversigt over erstatningsbetingelserne"
+  },
+  {
+    "id": 73,
+    "front": "Hvad er adækvans?",
+    "back_answer": "Adækvans betyder påregnelighed, og det er en betingelse for erstatning. Skadevolderen skal med rimelighed have mulighed for at forudse, at en skade af netop denne type eller omfang ville kunne opstå i situationen.",
+    "source_ref": "7.1 Oversigt over erstatningsbetingelserne"
+  },
+  {
+    "id": 74,
+    "front": "Hvad er egen skyld?",
+    "back_answer": "Egen skyld foreligger, når skadelidte selv har haft indflydelse på eller medvirket til skadesforløbet. Det kan medføre bortfald eller lempelse af erstatningsansvaret, afhængig af skyldgraden.",
+    "source_ref": "7.1 Oversigt over erstatningsbetingelserne"
+  },
+  {
+    "id": 75,
+    "front": "Hvad er objektive ansvarsfrihedsgrunde?",
+    "back_answer": "Objektive ansvarsfrihedsgrunde er forhold, der bevirker, at skadevolderen med god grund forvoldte skaden, og dermed kan undgå at betale erstatning. Eksempler inkluderer nødværge, nødret og lovlig retshåndhævelse.",
+    "source_ref": "7.1 Oversigt over erstatningsbetingelserne"
+  },
+  {
+    "id": 76,
+    "front": "Hvad er culpa-reglen?",
+    "back_answer": "Culpa-reglen er den mest anvendte erstatningsregel i Danmark. Den betyder, at man er erstatningsansvarlig, hvis man har handlet culpøst, altså udvist skyld i form af forsæt eller uagtsomhed.",
+    "source_ref": "7.2 Culpa-ansvar"
+  },
+  {
+    "id": 77,
+    "front": "Hvad er forsæt?",
+    "back_answer": "Forsæt er til stede, når skadevolderen er helt klar over eller har indset, at handlingen vil medføre skade, eller med vilje har fremkaldt skaden. Formålet med handlingen var netop at udløse skaden.",
+    "source_ref": "Forsæt"
+  },
+  {
+    "id": 78,
+    "front": "Hvad er uagtsomhed?",
+    "back_answer": "Uagtsomhed foreligger, når skadevolderen ikke har forudset skaden, men ved bedre omtanke burde have forudset den. Det betyder, at man har foretaget en handling, man burde have undladt at foretage.",
+    "source_ref": "Uagtsomhed"
+  },
+  {
+    "id": 79,
+    "front": "Hvad er hændelighed?",
+    "back_answer": "En skade er hændelig, hvis skadevolderen ikke kan gøre for, at den sker. Skaden opstår tilfældigt, og skadevolderen er ikke erstatningsansvarlig efter culpa-reglen for tab, der følger af en hændelig begivenhed.",
+    "source_ref": "Hændelighed"
+  },
+  {
+    "id": 80,
+    "front": "Hvad er bonus pater familias?",
+    "back_answer": "Bonus pater familias er en fiktiv gennemsnitlig og fornuftig person, som man kan sammenligne skadevolderen med for at vurdere, om skaden er sket hændeligt eller uagtsomt. Han er en omhyggelig og fornuftig person.",
+    "source_ref": "7.2 Culpa-ansvar"
+  },
+  {
+    "id": 81,
+    "front": "Hvad er professionsansvar?",
+    "back_answer": "Professionsansvar er et skærpet ansvar, der gælder for fagfolk. Når fagfolk foretager handlinger, der kræver særlig viden og uddannelse, sammenlignes de med en gennemsnits-fagperson inden for deres felt, når culpa-vurderingen foretages.",
+    "source_ref": "Professionsansvar"
+  },
+  {
+    "id": 82,
+    "front": "Hvad er børns erstatningsansvar?",
+    "back_answer": "Børn er som udgangspunkt erstatningspligtige for deres skadegørende handlinger, på samme måde som voksne. I erstatningsretten er man et barn, så længe man ikke er fyldt 15 år. Ansvaret kan dog lempes eller helt bortfalde under visse omstændigheder.",
+    "source_ref": "Børns erstatningsansvar"
+  },
+  {
+    "id": 83,
+    "front": "Hvad er præsumptionsansvar?",
+    "back_answer": "Præsumptionsansvar er culpa med omvendt bevisbyrde. Det betyder, at skadelidte ikke skal bevise, at skadevolderen har handlet culpøst, men derimod at skadevolderen skal bevise sin uskyld for at slippe for ansvar.",
+    "source_ref": "Culpa med omvendt bevisbyrde (Præsumptionsansvar)"
+  },
+  {
+    "id": 84,
+    "front": "Hvad er objektivt ansvar?",
+    "back_answer": "Objektivt ansvar er et strengere ansvar end det almindelige culpaansvar, og det betyder, at man kan blive erstatningspligtig uden skyld. Det er lovbestemt og gælder i visse situationer, fx arbejdsgiveransvar og produktansvar.",
+    "source_ref": "7.3 Objektivt ansvar"
+  },
+  {
+    "id": 85,
+    "front": "Hvad er arbejdsgiveransvar?",
+    "back_answer": "Arbejdsgiveransvar er et objektivt ansvar, hvor arbejdsgiveren er erstatningsansvarlig for skader, de ansatte forvolder i arbejdstiden og under arbejdets udførelse, selvom arbejdsgiveren intet havde med skaden at gøre.",
+    "source_ref": "7.3.1 Arbejdsgiveransvar"
+  },
+  {
+    "id": 86,
+    "front": "Hvad er produktansvar?",
+    "back_answer": "Produktansvar er et objektivt ansvar, der pålægger en producent og evt. mellemhandlere erstatningspligt for skade forårsaget af et defekt produkt, der er produceret eller leveret af disse. Det omfatter personskader og skader på forbrugeres ting.",
+    "source_ref": "7.3.2 Produktansvar"
+  },
+  {
+    "id": 87,
+    "front": "Hvad er Færdselslovens objektive ansvar?",
+    "back_answer": "Færdselsloven pålægger den ansvarlige for et motordrevet køretøj objektivt ansvar for de skader, køretøjet forvolder ved færdselsuheld eller brand. Det betyder, at skadelidte kan få erstatning, selvom føreren af bilen ikke har udvist culpa.",
+    "source_ref": "Færdselsloven"
+  },
+  {
+    "id": 88,
+    "front": "Hvad er forsikringspligt?",
+    "back_answer": "Forsikringspligt betyder, at motorkøretøjsejere skal tegne en lovpligtig ansvarsforsikring. Forsikringen dækker erstatningsbeløb i forbindelse med færdselsuheld, så det strenge ansvar sjældent belaster den ansvarliges egen økonomi.",
+    "source_ref": "Forsikringspligt"
+  },
+  {
+    "id": 89,
+    "front": "Hvad er tingsskade?",
+    "back_answer": "Tingsskade er skade på en ting, og erstatning for tingsskade er kun reguleret af retspraksis. Skadevolderen skal erstatte det faktiske tab, dvs. de direkte udgifter ved skaden, som kan være reparationsudgiften eller genanskaffelsesprisen.",
+    "source_ref": "Tingsskade"
+  },
+  {
+    "id": 90,
+    "front": "Hvad er personskade?",
+    "back_answer": "Personskade er skade på en person, og erstatning for personskade beregnes efter Erstatningsansvarsloven. Den dækker tabt arbejdsfortjeneste, helbredelsesudgifter, svie og smerte, varigt mén, erhvervsevnetab og fremtidige tab.",
+    "source_ref": "Personskade"
+  },
+  {
+    "id": 91,
+    "front": "Hvad er tort?",
+    "back_answer": "Tort er en godtgørelse for ikke-fysiske følger af skadevolderens adfærd, der har påført skadelidte ubehag. Det gives for psykisk belastning som angst, nedbrudthed, nedværdigelse eller traumatisering, og er ikke en erstatning for økonomisk tab.",
+    "source_ref": "Tort"
+  },
+  {
+    "id": 92,
+    "front": "Hvad er erstatning til efterladte?",
+    "back_answer": "Erstatning til efterladte gives, når en person er ansvarlig for en andens død. Den omfatter erstatning til forsørgeren (typisk ægtefællen eller samleveren) og børnene, samt rimelige begravelsesudgifter.",
+    "source_ref": "Erstatninger og godtgørelser til efterladte"
+  },
+  {
+    "id": 93,
+    "front": "Hvad er vindingsforbuddet?",
+    "back_answer": "Vindingsforbuddet er en vigtig regel inden for erstatningsret, der betyder, at man ikke må tjene på erstatning. Erstatningen skal kun dække det faktiske tab, der er opstået.",
+    "source_ref": "7.4 Økonomisk tab"
+  },
+  {
+    "id": 94,
+    "front": "Hvad er tabsbegrænsningspligt?",
+    "back_answer": "Tabsgrænsningspligt betyder, at skadelidte altid skal forsøge at begrænse sit tab mest muligt. Hvis et tab med rimelighed kunne have været undgået, får skadelidte ikke dækket det af skadevolderen.",
+    "source_ref": "Tingsskade"
+  },
+  {
+    "id": 95,
+    "front": "Hvad er nødværge?",
+    "back_answer": "Nødværge er en objektiv ansvarsfrihedsgrund, hvor skaden opstår i forbindelse med et rimeligt selvforsvar. Skadevolderen kan undgå at betale erstatning, hvis handlingen var rimelig i forhold til situationen.",
+    "source_ref": "7.8 Objektive ansvarsfrihedsgrunde"
+  },
+  {
+    "id": 96,
+    "front": "Hvad er nødret?",
+    "back_answer": "Nødret er en objektiv ansvarsfrihedsgrund, hvor man ofrer et aktiv for at redde noget vigtigere. Skadevolderen kan undgå at betale erstatning, hvis handlingen var rimelig i forhold til situationen.",
+    "source_ref": "7.8 Objektive ansvarsfrihedsgrunde"
+  },
+  {
+    "id": 97,
+    "front": "Hvad er lovlig retshåndhævelse?",
+    "back_answer": "Lovlig retshåndhævelse er en objektiv ansvarsfrihedsgrund, hvor skadelidte får skader ved tilbageholdelse pga. kriminalitet. Politiet og civile må have et vist råderum til at foretage nødvendige anholdelser for at skabe ro og orden.",
+    "source_ref": "7.8 Objektive ansvarsfrihedsgrunde"
+  },
+  {
+    "id": 98,
+    "front": "Hvad er skadesforsikring?",
+    "back_answer": "Skadesforsikring er en forsikringsform, hvor forsikringsselskabet betaler for det faktisk opståede tab. Forsikringstageren betaler en præmie, og forsikringsydelsen kan være maksimeret til et vist beløb.",
+    "source_ref": "Skadesforsikring"
+  },
+  {
+    "id": 99,
+    "front": "Hvad er summaforsikring?",
+    "back_answer": "Summaforsikring er en forsikringsform, hvor parterne aftaler hvilke begivenheder, der skal udløse en forsikringsudbetaling. Udbetalingen er ikke afhængig af et konkret tab, men alene af at forsikringsbegivenheden indtræder.",
+    "source_ref": "Summaforsikring"
+  },
+  {
+    "id": 100,
+    "front": "Hvad er en forsikringsbegivenhed?",
+    "back_answer": "En forsikringsbegivenhed er den handling eller begivenhed, der er nævnt i policen, og som udløser penge fra forsikringsgiveren til forsikringstageren.",
+    "source_ref": "8.4 Fremkaldelse af forsikringsbegivenheden"
+  },
+  {
+    "id": 101,
+    "front": "Hvad er risikooplysninger?",
+    "back_answer": "Risikooplysninger er de oplysninger, forsikringstageren skal give til forsikringsselskabet, så det kan vurdere risikoens størrelse og beregne præmien. Hvis oplysningerne ikke er korrekte, kan det have alvorlige konsekvenser for forsikringsdækningen.",
+    "source_ref": "8.3 Risikooplysninger"
+  },
+  {
+    "id": 102,
+    "front": "Hvad er en forsikringspolice?",
+    "back_answer": "En forsikringspolice er et dokument, der angiver parternes aftale og vilkårene for forsikringsaftalen. Den er bevis for, at forsikringen er tegnet, og hvilke betingelser der gælder.",
+    "source_ref": "8.2 Forsikringsaftalens indgåelse"
+  },
+  {
+    "id": 103,
+    "front": "Hvad er en præmie i forsikring?",
+    "back_answer": "En præmie er prisen for forsikringen, som forsikringstageren betaler til forsikringsgiveren for at overtage risikoen for et potentielt tab.",
+    "source_ref": "8.1 Parterne i forsikring og forsikringsformer"
+  },
+  {
+    "id": 104,
+    "front": "Hvad er underforsikring?",
+    "back_answer": "Underforsikring foreligger, når forsikringssummen er sat lavere end værdien af det forsikrede. Ved underforsikring dækker selskabet kun en del af skaden, der svarer til forholdet mellem forsikringssummen og værdien af det forsikrede.",
+    "source_ref": "8.5 Forsikringsudbetaling"
+  },
+  {
+    "id": 105,
+    "front": "Hvad er overforsikring?",
+    "back_answer": "Overforsikring foreligger, når forsikringssummen overstiger værdien af det forsikrede. Det er uhensigtsmæssigt i skadesforsikringer, da udbetalingen ikke må overstige tabet, men forekommer ofte, når værdien er vanskelig at fastslå.",
+    "source_ref": "8.5 Forsikringsudbetaling"
+  },
+  {
+    "id": 106,
+    "front": "Hvad er dobbeltforsikring?",
+    "back_answer": "Dobbeltforsikring betyder, at samme aktiv er forsikret i to eller flere forsikringsselskaber. Ved skadesforsikringer må forsikringsydelsen ikke overstige tabet, og selskaberne hæfter solidarisk, men kan dele udgiften indbyrdes.",
+    "source_ref": "8.5 Forsikringsudbetaling"
+  },
+  {
+    "id": 107,
+    "front": "Hvad er en aftale?",
+    "back_answer": "En aftale er en juridisk bindende overenskomst mellem to eller flere parter, der forpligter dem til at opfylde visse betingelser. Aftaler kan indgås mundtligt, skriftligt eller ved håndslag.",
+    "source_ref": "10. Aftalers indgåelse"
+  },
+  {
+    "id": 108,
+    "front": "Hvad er et løfte?",
+    "back_answer": "Et løfte er en ensidig erklæring fra en person om at ville påtage sig en pligt. Løftet skaber forventninger hos modtageren og er bindende, når modtageren læser eller hører det (kundskabsøjeblikket).",
+    "source_ref": "Aftalelovens fagudtryk"
+  },
+  {
+    "id": 109,
+    "front": "Hvad er et tilbud?",
+    "back_answer": "Et tilbud er et løfte, hvis indhold er så klart, at modtageren med et 'ja tak' kan indgå en aftale. Tilbuddet er bindende for løftegiveren, men taber sin virkning, hvis det ikke accepteres i rette tid.",
+    "source_ref": "Aftalelovens fagudtryk"
+  },
+  {
+    "id": 110,
+    "front": "Hvad er en accept?",
+    "back_answer": "En accept er et svar, hvori man siger ja til et tilbud. Accepten er både et løfte, der binder acceptanten, og et påbud, der binder modtageren, når det er kommet frem/modtaget (brevsprækkeøjeblikket).",
+    "source_ref": "Aftalelovens fagudtryk"
+  },
+  {
+    "id": 111,
+    "front": "Hvad er kundskabsøjeblikket?",
+    "back_answer": "Kundskabsøjeblikket er det øjeblik, hvor modtageren af en meddelelse (fx et tilbud eller en accept) har åbnet og læst den, altså når den er i modtagerens 'hjernekasse'.",
+    "source_ref": "Aftalelovens fagudtryk"
+  },
+  {
+    "id": 112,
+    "front": "Hvad er brevsprækkeøjeblikket?",
+    "back_answer": "Brevsprækkeøjeblikket er det øjeblik, hvor en meddelelse (fx en accept) er kommet frem til modtageren, altså når den ligger i modtagerens postkasse eller mailindbakke.",
+    "source_ref": "Aftalelovens fagudtryk"
+  },
+  {
+    "id": 113,
+    "front": "Hvad er gensidigt bebyrdende aftaler?",
+    "back_answer": "Gensidigt bebyrdende aftaler er formueretlige aftaler, hvor der er aftalt en ydelse og en modydelse, fx varer mod penge. Begge parter forpligter sig over for hinanden.",
+    "source_ref": "Aftalelovens fagudtryk"
+  },
+  {
+    "id": 114,
+    "front": "Hvad er ensidige aftaler?",
+    "back_answer": "Ensidige aftaler er aftaler, hvor kun den ene part påtager sig en pligt, fx gaveløfter eller kautionsløfter. Der er ikke en modydelse fra den anden part.",
+    "source_ref": "Aftalelovens fagudtryk"
+  },
+  {
+    "id": 115,
+    "front": "Hvad er retsevne?",
+    "back_answer": "Retsevne er en persons evne til at være berettiget eller forpligtet i et retsforhold. Denne evne har alle mennesker hele livet igennem, fra før fødslen, og den giver ret til visse rettigheder uden aktiv medvirken.",
+    "source_ref": "Retsevne"
+  },
+  {
+    "id": 116,
+    "front": "Hvad er handleevne (habilitet)?",
+    "back_answer": "Handleevne, også kaldet habilitet, er en persons evne til at foretage en aktiv handling for at blive part i et retsforhold, der berettiger eller forpligter. Den indtræder på forskellige alderstrin og kræver en vis modenhed.",
+    "source_ref": "Handleevne"
+  },
+  {
+    "id": 117,
+    "front": "Hvad er formueretlig myndighed (kontraktshabilitet)?",
+    "back_answer": "Formueretlig myndighed, også kaldet kontraktshabilitet, betyder, at en person fra 18 år kan indgå fx kreditaftaler og råde over sin formue. Det er evnen til at forpligte sig ved retshandler.",
+    "source_ref": "Handleevne"
+  },
+  {
+    "id": 118,
+    "front": "Hvad er personlig myndighed?",
+    "back_answer": "Personlig myndighed betyder, at en person fra 18 år selv kan bestemme sin bopæl og har stemmeret. Det er evnen til at råde over sin egen person.",
+    "source_ref": "Handleevne"
+  },
+  {
+    "id": 119,
+    "front": "Hvad er testamentshabilitet?",
+    "back_answer": "Testamentshabilitet betyder, at man kan oprette testamente og bestemme, hvem der skal arve ens aktiver, når man dør. Denne evne opnås ved en vis alder, typisk 18 år.",
+    "source_ref": "Handleevne"
+  },
+  {
+    "id": 120,
+    "front": "Hvad er selverhvervsreglen?",
+    "back_answer": "Selverhvervsreglen i Værgemålslovens § 42 giver personer over 15 år ret til at råde over de penge, de selv har tjent, ved kontant køb. Den medfører dog ikke adgang til at påtage sig gældsforpligtelser.",
+    "source_ref": "Selverhvervsreglen"
+  },
+  {
+    "id": 121,
+    "front": "Hvad er pengereglen?",
+    "back_answer": "Pengereglen er en retspraksis, der medfører, at en umyndig uden værgens samtykke kan købe dagligdagsvarer kontant. Det afgørende er, om løftemodtageren (sælgeren) er i god tro om den umyndiges ret til at bruge beløbet.",
+    "source_ref": "Pengereglen"
+  },
+  {
+    "id": 122,
+    "front": "Hvad er en standardkontrakt?",
+    "back_answer": "En standardkontrakt er en formular, der indeholder vilkår, som er udarbejdet af den ene part, uden at den anden part har haft mulighed for at få indflydelse på indholdet. De anvendes i mange brancher, fx ved banklån eller leasingaftaler.",
+    "source_ref": "10.3 Standardkontrakter og andre former for aftaleindgåelse"
+  },
+  {
+    "id": 123,
+    "front": "Hvad er en forsinket accept?",
+    "back_answer": "En forsinket accept er en accept, der er afsendt for sent eller kommer for sent frem til tilbudsgiveren. Den betragtes som et nyt tilbud, og den oprindelige tilbudsgiver er ikke bundet, medmindre han undlader at reklamere.",
+    "source_ref": "Forsinket accept"
+  },
+  {
+    "id": 124,
+    "front": "Hvad er en uoverensstemmende accept?",
+    "back_answer": "En uoverensstemmende accept er et svar, der går ud på, at tilbud antages, men som på grund af tillæg, indskrænkninger eller forbehold ikke stemmer med tilbuddet. Den anses som et afslag i forbindelse med et nyt tilbud (modbud).",
+    "source_ref": "Uoverensstemmende accept"
+  },
+  {
+    "id": 125,
+    "front": "Hvad er pligtmæssig reklamation?",
+    "back_answer": "Pligtmæssig reklamation er den meddelelse, tilbudsgiver skal give acceptanten, hvis accepten enten er forsinket eller uoverensstemmende, og acceptanten er i god tro herom. Meddelelsen får retsvirkning fra afsendelsen.",
+    "source_ref": "Pligtmæssig reklamation"
+  },
+  {
+    "id": 126,
+    "front": "Hvad er en kvasiaftale?",
+    "back_answer": "En kvasiaftale er en aftale, hvor en person bliver bundet ved sin opførsel, selvom han hverken har afgivet et direkte eller et stiltiende løfte. Det kan illustreres ved, at en bilist accepterer parkeringsregler ved at køre ind på en parkeringsplads.",
+    "source_ref": "Kvasiaftaler"
+  },
+  {
+    "id": 127,
+    "front": "Hvad er negativ aftalebinding?",
+    "back_answer": "Negativ aftalebinding er, når en tilbudsgiver betragter tilbudsmodtagers tavshed som en accept. Dette er i strid med god markedsføringsskik, og tilbudsmodtageren bliver (som hovedregel) ikke bundet, selvom han forholder sig passivt.",
+    "source_ref": "Passivitet"
+  },
+  {
+    "id": 128,
+    "front": "Hvad er en stærk ugyldighedsgrund?",
+    "back_answer": "En stærk ugyldighedsgrund medfører, at en aftale som udgangspunkt automatisk er ugyldig, uanset om løftemodtageren er i god tro. Eksempler inkluderer falsk, forfalskning, forvanskning, umyndighed, voldelig tvang og fuldmagtsoverskridelse.",
+    "source_ref": "12.3 Stærke ugyldighedsgrunde"
+  },
+  {
+    "id": 129,
+    "front": "Hvad er en svag ugyldighedsgrund?",
+    "back_answer": "En svag ugyldighedsgrund medfører, at en aftale ikke automatisk bliver ugyldig. Løftegiveren har mulighed for at gardere sig imod den, og aftalen medfører kun ugyldighed, hvis løftemodtageren er i ond tro. Eksempler inkluderer svig, udnyttelse, fejltagelse og simpel tvang.",
+    "source_ref": "12.2 Svage ugyldighedsgrunde"
+  },
+  {
+    "id": 130,
+    "front": "Hvad er falsk?",
+    "back_answer": "Falsk foreligger, når løftegiveren har anvendt et andet navn end sit eget, da han afgav løftet, med det formål at forpligte en anden. Det er en stærk ugyldighedsgrund, der medfører, at løftet er ugyldigt, uanset løftemodtagers gode tro.",
+    "source_ref": "Falsk"
+  },
+  {
+    "id": 131,
+    "front": "Hvad er forfalskning?",
+    "back_answer": "Forfalskning betyder, at man retter i en andens løfte, så indholdet ændres. Løftet er ægte fra starten, men har fået et andet indhold end tilsigtet. Det er en stærk ugyldighedsgrund, der medfører, at løftet er ugyldigt, selvom løftemodtageren er i god tro.",
+    "source_ref": "Forfalskning"
+  },
+  {
+    "id": 132,
+    "front": "Hvad er forvanskning?",
+    "back_answer": "Forvanskning foreligger, når løftegivers løfte ændres under forsendelsen eller transporten til løftemodtageren, fx ved tekniske fejl i en mail eller et bud, der opgiver en forkert pris. Det er en stærk ugyldighedsgrund, der medfører, at løftet er ugyldigt.",
+    "source_ref": "Forvanskning"
+  },
+  {
+    "id": 133,
+    "front": "Hvad er umyndighed?",
+    "back_answer": "Umyndighed er en stærk ugyldighedsgrund, der foreligger, når en person er under 18 år eller under værgemål. Umyndige kan som hovedregel ikke selv forpligte sig ved retshandler eller råde over deres formue.",
+    "source_ref": "Umyndighed"
+  },
+  {
+    "id": 134,
+    "front": "Hvad er voldelig tvang?",
+    "back_answer": "Voldelig tvang er en stærk ugyldighedsgrund, der foreligger, når en person ved anvendelse af vold eller trussel om øjeblikkelig brug af vold fremprovokerer et løfte. Løftet er ikke bindende for den tvungne.",
+    "source_ref": "12.3.3 Voldelig tvang"
+  },
+  {
+    "id": 135,
+    "front": "Hvad er fuldmagtsoverskridelse?",
+    "back_answer": "Fuldmagtsoverskridelse er en stærk ugyldighedsgrund, der foreligger, når fuldmægtigen handler uden for grænsen/legitimationen af sin fuldmagt. Fuldmagtsgiveren bliver som udgangspunkt ikke bundet, uanset om tredjemand er i god tro.",
+    "source_ref": "12.3.4 Fuldmagtsoverskridelse"
+  },
+  {
+    "id": 136,
+    "front": "Hvad er svigtende forudsætninger?",
+    "back_answer": "Svigtende forudsætninger foreligger, når antagelser eller forhåbninger, der ligger til grund for en aftale, ikke opfyldes pga. efterfølgende omstændigheder. Aftalen kan gøres ikke-bindende, hvis forudsætningerne er væsentlige, kendelige og relevante.",
+    "source_ref": "12.5 Svigtende forudsætninger"
+  },
+  {
+    "id": 137,
+    "front": "Hvad er en forbrugeraftale?",
+    "back_answer": "En forbrugeraftale er en aftale, som en erhvervsdrivende indgår som led i sit erhverv, når den anden part (forbrugeren) hovedsagelig handler uden for sit erhverv. Formålet er at beskytte forbrugeren som den svage part.",
+    "source_ref": "14.1 Forbrugeraftaleretlige begreber"
+  },
+  {
+    "id": 138,
+    "front": "Hvad er fjernsalg?",
+    "back_answer": "Fjernsalg er en købeaftale, der kommer i stand, uden at parterne mødes fysisk, og uden at køber ser varen, fx handel via internettet, telefon eller kataloger. Forbrugeren har en 14-dages fortrydelsesret ved fjernsalg.",
+    "source_ref": "14.7 Fjernsalg, herunder e-handel"
+  },
+  {
+    "id": 139,
+    "front": "Hvad er fortrydelsesret?",
+    "back_answer": "Fortrydelsesret er en forbrugers ret til at træde tilbage fra en aftale, typisk inden for 14 dage, uden nærmere begrundelse. Den gælder ved fjernsalg og aftaler indgået uden for den erhvervsdrivendes forretningssted.",
+    "source_ref": "14.5 Forbrugers fortrydelsesret"
+  },
+  {
+    "id": 140,
+    "front": "Hvad er negativ aftalebinding?",
+    "back_answer": "Negativ aftalebinding er, når en erhvervsdrivende fremsender en vare til en forbruger uden dennes forudgående anmodning, og skyldes dette ikke en fejl, kan forbrugeren beholde varen vederlagsfrit. Forbrugeren kan ikke blive bundet af en aftale gennem sin passivitet.",
+    "source_ref": "14.3 Negativ aftalebinding"
+  },
+  {
+    "id": 141,
+    "front": "Hvad er den erhvervsdrivendes oplysningspligt?",
+    "back_answer": "Den erhvervsdrivendes oplysningspligt betyder, at sælgeren har en særlig pligt til at give forbrugeren klare og præcise oplysninger om varen eller tjenesteydelsen, pris, fortrydelsesret mv., især ved fjernsalg og aftaler uden for forretningssted.",
+    "source_ref": "14.4 Den erhvervsdrivendes oplysningspligt"
+  },
+  {
+    "id": 142,
+    "front": "Hvad er e-handelsmærket?",
+    "back_answer": "E-handelsmærket er et mærke, der sikrer forbrugeren, at en hjemmeside lever op til de krav, der fremgår af lovgivningen og Forbrugerombudsmandens retningslinjer. Det er en ekstra sikkerhed for forbrugeren ved onlinekøb.",
+    "source_ref": "E-handelsmærket"
+  },
+  {
+    "id": 143,
+    "front": "Hvad er betalingsmidler?",
+    "back_answer": "Betalingsmidler er de midler, der kan anvendes til at betale for en vare eller tjenesteydelse, fx kontanter, betalingskort, MobilePay eller netbank. Reglerne for betalingsmidler er fastsat i Betalingsloven.",
+    "source_ref": "Betalingsmidler"
+  },
+  {
+    "id": 144,
+    "front": "Hvad er en forbruger?",
+    "back_answer": "En forbruger er en fysisk person, der i privat regi foretager et køb af en erhvervsdrivende. Forbrugeren handler hovedsagelig uden for sit erhverv og er beskyttet af særlige forbrugerretlige regler.",
+    "source_ref": "Forbrugeraftalelov § 2"
+  },
+  {
+    "id": 145,
+    "front": "Hvad er en erhvervsdrivende?",
+    "back_answer": "En erhvervsdrivende er en fysisk eller juridisk person, der udøver virksomhed som handlende, håndværker eller industridrivende, eller udøver et liberalt erhverv. De handler i eget navn eller på vegne af en erhvervsdrivende.",
+    "source_ref": "Markedsføringslov § 2"
+  },
+  {
+    "id": 146,
+    "front": "Hvad er en vare med digitale elementer?",
+    "back_answer": "En vare med digitale elementer er en løsøregenstand, der integrerer eller er indbyrdes forbundet med digitalt indhold eller en digital tjeneste på en sådan måde, at fraværet af det digitale indhold eller den digitale tjeneste ville forhindre genstanden i at opfylde sin funktion.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 147,
+    "front": "Hvad er digitalt indhold?",
+    "back_answer": "Digitalt indhold er data, der fremstilles og leveres i digital form. Det kan være fx musiktjenester, sociale medier eller software. Beskyttelsen gælder, uanset om der betales et pengebeløb for tjenesten, eller om den er gratis.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 148,
+    "front": "Hvad er en digital tjeneste?",
+    "back_answer": "En digital tjeneste er en tjeneste, der gør det muligt at generere, behandle, lagre eller få adgang til data i digital form, eller som muliggør deling af eller enhver anden form for interaktion med data i digital form, som uploades eller genereres af brugere af den pågældende tjeneste.",
+    "source_ref": "Forbrugeraftalelov § 3"
+  },
+  {
+    "id": 149,
+    "front": "Hvad er et køb?",
+    "back_answer": "Et køb er en gensidig bebyrdende aftale, hvor en sælger overdrager en vare (et aktiv) til en køber mod, at køberen overdrager penge, altså betaler prisen for varen. Køber bliver ejer af den købte vare.",
+    "source_ref": "15.1 Køberetlige begreber"
+  },
+  {
+    "id": 150,
+    "front": "Hvad er handelskøb?",
+    "back_answer": "Handelskøb er køb, som indgås mellem handlende i eller for deres bedrift. Køber skal enten anvende det købte i sin virksomhed eller sælge det videre. Reglerne for handelskøb er deklaratoriske.",
+    "source_ref": "Købelov § 4"
+  },
+  {
+    "id": 151,
+    "front": "Hvad er civilkøb?",
+    "back_answer": "Civilkøb er en købeaftale, der hverken er et forbrugerkøb eller et handelskøb. Det er typisk en aftale, der indgås mellem to private personer, fx et køb eller salg gennem DBA. Reglerne for civilkøb reguleres af reglerne om handelskøb med enkelte undtagelser.",
+    "source_ref": "Civilkøb"
+  },
+  {
+    "id": 152,
+    "front": "Hvad er specieskøb?",
+    "back_answer": "Specieskøb er en købeaftale, der er indgået om en individuelt bestemt genstand. Der findes kun den ene genstand, der kan opfylde aftalen, og sælger kan ikke vælge at levere en anden genstand end netop den, aftalen vedrører.",
+    "source_ref": "Specieskøb"
+  },
+  {
+    "id": 153,
+    "front": "Hvad er genuskøb?",
+    "back_answer": "Genuskøb er et køb af varer bestemt efter art, hvor der købes en del af en mængde. Der er flere af samme slags, og sælger har mulighed for at vælge varen inden for den aftalte art. Hvis en genusgenstand ødelægges, har sælgeren mulighed for at skaffe en anden tilsvarende.",
+    "source_ref": "Genuskøb"
+  },
+  {
+    "id": 154,
+    "front": "Hvad er sælgers pligter i et køb?",
+    "back_answer": "Sælgers vigtigste pligter er at levere den rigtige vare med hensyn til kvalitet og kvantitet, på det rigtige sted og på det rigtige tidspunkt. Sælger har også en oplysningspligt over for køber.",
+    "source_ref": "15.2 Sælgers pligter"
+  },
+  {
+    "id": 155,
+    "front": "Hvad er levering i køberetten?",
+    "back_answer": "Levering er et vigtigt begreb i køberetten, idet risikoen for varens hændelige undergang eller beskadigelse overgår fra sælger til køber ved leveringen. Levering sker, når varen er stillet til rådighed for køber.",
+    "source_ref": "Levering"
+  },
+  {
+    "id": 156,
+    "front": "Hvad er fordringshavermora?",
+    "back_answer": "Fordringshavermora foreligger, hvis sælger ikke kan komme til at levere som aftalt pga. købers forhold, fx at køber ikke afhenter eller modtager varen til den aftalte tid. Risikoen for varens hændelige undergang overgår fra sælger til køber.",
+    "source_ref": "Fordringshavermora"
+  },
+  {
+    "id": 157,
+    "front": "Hvad er distancehandel?",
+    "back_answer": "Distancehandel, også kaldet forsendelseskøb, er når varen skal bringes uden for sælgers plads. Leveringsstedet er hos den første fremmede fragtfører, og risikoen overgår fra sælger til køber, når varen afleveres til fragtføreren.",
+    "source_ref": "Distancehandel"
+  },
+  {
+    "id": 158,
+    "front": "Hvad er købers pligter i et køb?",
+    "back_answer": "Købers vigtigste pligt er at betale den rette købesum med de rigtige betalingsmidler, til rette betalingstid, til rette kreditor og på rette betalingssted.",
+    "source_ref": "17.2 Købers pligter"
+  },
+  {
+    "id": 159,
+    "front": "Hvad er sælgers misligholdelse?",
+    "back_answer": "Sælgers misligholdelse foreligger, hvis sælger ikke overholder købeaftalen, fx ved at levere varen for sent (forsinkelse) eller ved at levere en vare, der lider af en mangel (mangelfuld vare) eller ved vanhjemmel (sælger ejer ikke varen).",
+    "source_ref": "17.3 Sælgers misligholdelse"
+  },
+  {
+    "id": 160,
+    "front": "Hvad er købers misligholdelsesbeføjelser?",
+    "back_answer": "Hvis sælger misligholder købeaftalen, har køber mulighed for at reagere med misligholdelsesbeføjelser. Køber kan vælge at fastholde købet (kræve levering, omlevering, afhjælpning, forholdsmæssigt afslag), hæve købet eller kræve erstatning for tab.",
+    "source_ref": "17.3 Sælgers misligholdelse"
+  },
+  {
+    "id": 161,
+    "front": "Hvad er reklamationsret?",
+    "back_answer": "Reklamationsret er en ufravigelig rettighed til at klage over en vare, hvis den lider af en mangel. Forbrugeren skal reklamere inden rimelig tid efter, at manglen er konstateret, og senest inden to år efter leveringen.",
+    "source_ref": "15.4.4 Reklamation og garanti"
+  },
+  {
+    "id": 162,
+    "front": "Hvad er garanti?",
+    "back_answer": "En garanti er en ekstra service, hvorefter sælger stiller forbrugeren væsentligt bedre, end Købeloven allerede gør. Garantien er en del af købeaftalen og skal præcist oplyse, hvordan den forbedrer forbrugerens stilling.",
+    "source_ref": "15.4.4 Reklamation og garanti"
+  },
+  {
+    "id": 163,
+    "front": "Hvad er markedsføringsret?",
+    "back_answer": "Markedsføringsret regulerer, hvordan virksomheder må markedsføre sig, med det formål at beskytte forbrugere, erhvervsdrivende og almene samfundsinteresser. Loven stiller krav til god markedsføringsskik, prisoplysninger, skjult reklame og reklamer rettet mod børn og unge.",
+    "source_ref": "16. Markedsføringsret"
+  },
+  {
+    "id": 164,
+    "front": "Hvad er god markedsføringsskik?",
+    "back_answer": "God markedsføringsskik er en overordnet retlig standard, der kræver, at erhvervsdrivende udviser ordentlig og rimelig adfærd i deres markedsføring. Den omfatter alt, hvad en erhvervsdrivende gør for at fremme kendskab til og/eller salg af et produkt.",
+    "source_ref": "16.1 Markedsføringslovens formål og definitioner"
+  },
+  {
+    "id": 165,
+    "front": "Hvad er skjult reklame?",
+    "back_answer": "Skjult reklame er, når en reklame camoufleres, så det ikke er tydeligt for forbrugeren, at der er tale om markedsføring. Markedsføringsloven kræver, at al reklame tydeligt skal markeres som reklame, fx med ordene 'reklame' eller 'annonce'.",
+    "source_ref": "16.5 Skjult reklame – reklameidentifikation"
+  },
+  {
+    "id": 166,
+    "front": "Hvad er sammenlignende reklame?",
+    "back_answer": "Sammenlignende reklame er en markedsføring, hvor et produkt fremhæves ved at sammenligne det med et eller flere konkurrerende produkter. Det er lovligt, hvis det opfylder en række krav, fx at det ikke er vildledende, nedvurderer konkurrenters produkter eller skaber forveksling.",
+    "source_ref": "16.6 Sammenlignende reklamer"
+  },
+  {
+    "id": 167,
+    "front": "Hvad er uanmodet henvendelse?",
+    "back_answer": "Uanmodet henvendelse er, når en erhvervsdrivende retter henvendelse til en forbruger via elektronisk post, automatisk opkaldssystem eller telefax uden forbrugerens forudgående samtykke. Det er populært kaldet SPAM og er ulovligt.",
+    "source_ref": "16.7 Uanmodet henvendelse"
+  },
+  {
+    "id": 168,
+    "front": "Hvad er tilgift?",
+    "back_answer": "Tilgift betyder, at kunden får tilbudt en ekstra vare gratis ved køb af en anden vare. Det er lovligt, hvis den erhvervsdrivende tydeligt oplyser forbrugeren om værdien af begge varer og ikke har sat prisen op i anledning af markedsføringstiltaget.",
+    "source_ref": "Tilgift"
+  },
+  {
+    "id": 169,
+    "front": "Hvad er konkurrencer i markedsføring?",
+    "back_answer": "Ved konkurrencer i markedsføring skal forbrugeren have klare informationer om præmiernes antal og værdi, grundlaget for at finde vinderne, vurdering af vinderchance, hvornår vinderne findes, og hvem der står bag konkurrencen. Det er vigtigt at få samtykke til markedsføringsmateriale.",
+    "source_ref": "Konkurrencer"
+  },
+  {
+    "id": 170,
+    "front": "Hvad er rabatter og mængdebegrænsning i markedsføring?",
+    "back_answer": "Ved rabatter skal forbrugeren vide, hvordan rabatten opnås og hvilke betingelser, der stilles. Mængdebegrænsning er, når sælger oplyser, at der max. sælges et bestemt antal varer pr. kunde. Det er lovligt, hvis forbrugeren klart oplyses om betingelserne.",
+    "source_ref": "Rabatter og mængdebegrænsning"
+  },
+  {
+    "id": 171,
+    "front": "Hvad er gennemsigtighed i markedsføring?",
+    "back_answer": "Gennemsigtighed i markedsføring betyder, at alle for forbrugeren relevante oplysninger skal være præcist angivet i forbindelse med selve markedsføringen. Det er den erhvervsdrivendes pligt at sikre gennemsigtighed, så forbrugeren kan træffe sin købsbeslutning på et reelt og veloplyst grundlag.",
+    "source_ref": "Gennemsigtighed"
+  },
+  {
+    "id": 172,
+    "front": "Hvad er kredit?",
+    "back_answer": "Kredit betyder, at en vare overgives til en forbruger uden, at sælger samtidig får betaling, eller at en kreditgiver stiller et beløb til rådighed for låntager, der så skal betale det tilbage senere.",
+    "source_ref": "19. Kreditaftaler"
+  },
+  {
+    "id": 173,
+    "front": "Hvad er kreditværdighed?",
+    "back_answer": "Kreditværdighed er en vurdering af en debitors økonomiske forhold, herunder indtægtsforhold, formueforhold og troværdighed, som en kreditor foretager for at vurdere risikoen ved at give kredit. Kreditor har pligt til at foretage en reel kreditvurdering.",
+    "source_ref": "Kreditværdighed"
+  },
+  {
+    "id": 174,
+    "front": "Hvad er gældsregistre?",
+    "back_answer": "Gældsregistre, fx Experian (RKI), kan modtage anmeldelse fra kreditorer om debitorer, der ikke betaler deres gæld til tiden. Formålet er at advare andre kreditorer om, at den anmeldte debitor er en dårlig betaler.",
+    "source_ref": "Gældsregistre"
+  },
+  {
+    "id": 175,
+    "front": "Hvad er pant?",
+    "back_answer": "Pant er en form for kreditsikring, hvor kreditor får sikkerhed i et aktiv, som debitor ejer. Panteretten giver kreditor en fortrinsret til pantets værdi forud for andre kreditorer, hvis debitor ikke betaler.",
+    "source_ref": "21. Pant i forbrugerforhold"
+  },
+  {
+    "id": 176,
+    "front": "Hvad er håndpant?",
+    "back_answer": "Håndpant er en panteform, hvor det pantsatte aktiv skal fratages pantsætteren og opbevares hos panthaveren eller en tredjemand. Der kræves en effektiv rådighedsberøvelse for at sikre panthaverens ret.",
+    "source_ref": "21.2.1 Håndpant i løsøre"
+  },
+  {
+    "id": 177,
+    "front": "Hvad er underpant?",
+    "back_answer": "Underpant er en panteform, hvor rådigheden over det pantsatte aktiv forbliver hos pantsætteren. Det er en hensigtsmæssig form for pantsætning, da pantsætteren fortsat kan anvende genstanden.",
+    "source_ref": "21.2.2 Underpant i løsøre"
+  },
+  {
+    "id": 178,
+    "front": "Hvad er sikringsakter?",
+    "back_answer": "Sikringsakter er de handlinger, panthaver bør/skal gøre for at sikre sin ret over pantet i forhold til andre kreditorer og aftaleerhververe. Eksempler inkluderer tinglysning og effektiv rådighedsberøvelse.",
+    "source_ref": "21.2 Pantformer og sikringsakter"
+  },
+  {
+    "id": 179,
+    "front": "Hvad er tinglysning?",
+    "back_answer": "Tinglysning er en sikringsakt, der indebærer registrering af rettigheder (fx panteret, ejendomsret) i et offentligt register. Tinglysning sikrer, at panthaverens ret opnår beskyttelse over for andre, der senere får ret til samme aktiv.",
+    "source_ref": "22. Tinglysning"
+  },
+  {
+    "id": 180,
+    "front": "Hvad er prioritetsvirkning?",
+    "back_answer": "Prioritetsvirkning er et overordnet princip i dansk ret, der betyder, at den, der først får tinglyst sin ret (i god tro), vinder over andre med utinglyste og senere tinglyste rettigheder. 'Først i tid, bedst i ret'.",
+    "source_ref": "22.2 Prioritetsvirkningen – når flere får pant i samme aktiv"
+  },
+  {
+    "id": 181,
+    "front": "Hvad er fysiske personers hæftelse?",
+    "back_answer": "Fysiske personers hæftelse betyder, at enkeltpersoner som udgangspunkt hæfter personligt med hele deres formue for den gæld, de selv stifter. Det betyder, at kreditorer kan søge sig fyldestgjort i alle debitors aktiver.",
+    "source_ref": "23. Fysiske personers hæftelse"
+  },
+  {
+    "id": 182,
+    "front": "Hvad er formuefællesskab?",
+    "back_answer": "Formuefællesskab opstår, når to personer bliver gift. Det betyder, at ægtefællernes bodele (aktiver og passiver) skal ligedeles ved ægteskabets ophør, fx ved skilsmisse eller død.",
+    "source_ref": "23.3.1 Formuefællesskab"
+  },
+  {
+    "id": 183,
+    "front": "Hvad er særråden?",
+    "back_answer": "Særråden er den hovedregel, der medfører, at hver ægtefælle råder ubegrænset over sin egen bodel (aktiver og passiver). Det betyder, at den ægtefælle, der ejer et aktiv, frit kan disponere over det, fx sælge eller pantsætte det.",
+    "source_ref": "23.3.2 Særråden"
+  },
+  {
+    "id": 184,
+    "front": "Hvad er særhæften?",
+    "back_answer": "Særhæften er den regel, der betyder, at hver ægtefælle hæfter for sin egen gæld med sine egne aktiver, uanset om gælden er opstået før eller under ægteskabet. Ægteskabet har reelt ingen betydning for den enkeltes gældsstiftelse.",
+    "source_ref": "23.3.3 Særhæften"
+  },
+  {
+    "id": 185,
+    "front": "Hvad er særeje?",
+    "back_answer": "Særeje er en undtagelse fra hovedreglen om formuefællesskab, der betyder, at særejeaktiver ikke deles ved ægteskabets ophør. Særeje kan opstå ved aftale mellem ægtefællerne (ægtepagt) eller ved tredjemands bestemmelse (testamente eller gavebrev).",
+    "source_ref": "23.3.4 Særeje"
+  },
+  {
+    "id": 186,
+    "front": "Hvad er bodeling?",
+    "back_answer": "Bodeling er den proces, der gennemføres, når et ægteskab ophører pga. separation, skilsmisse eller død. Formuefællesskabets delingsformuer ligedeles, og hver ægtefælles nettobodel beregnes.",
+    "source_ref": "23.3.5 Ægteskabets ophør – bodeling"
+  },
+  {
+    "id": 187,
+    "front": "Hvad er papirløst samlivsforhold?",
+    "back_answer": "Et papirløst samlivsforhold er, når to mennesker bor på samme adresse og lever sammen i et forhold, der kan sammenlignes med ægteskabet, men uden at være gift. Der findes ikke en lov, der regulerer papirløst samlevendes forhold, og der opstår intet formuefællesskab.",
+    "source_ref": "23.4 Papirløst samlivsforhold"
+  },
+  {
+    "id": 188,
+    "front": "Hvad er eksekutionsgrundlag?",
+    "back_answer": "Et eksekutionsgrundlag er et klart bevis på, at debitor skylder penge, og det er et fundament, der kræves, inden en fogedsag kan starte. Eksempler inkluderer domme, retsforlig, frivillige forlig, gældsbreve og pantebreve.",
+    "source_ref": "24.2 Eksekutionsgrundlag"
+  },
+  {
+    "id": 189,
+    "front": "Hvad er udlæg?",
+    "back_answer": "Udlæg er en sikkerhed for kreditor, der foretages i debitors aktiver i Fogedretten. Det kaldes også retspant, og udlægshaveren får en fortrinsret til aktivets værdi i forhold til debitors andre kreditorer.",
+    "source_ref": "24.5 Retsvirkning af udlæg"
+  },
+  {
+    "id": 190,
+    "front": "Hvad er tvangsauktion?",
+    "back_answer": "Tvangsauktion er en proces, hvor et aktiv sælges via Fogedretten for at skaffe midler til dækning af kreditors tilgodehavende, hvis debitor ikke betaler sin gæld. Aktivet sælges for højeste bud.",
+    "source_ref": "24.6 Tvangsauktion"
+  },
+  {
+    "id": 191,
+    "front": "Hvad er den forenklede inkassoproces?",
+    "back_answer": "Den forenklede inkassoproces er et supplement til den måde at inddrive et tilgodehavende på, der gør det lettere for kreditorer at inddrive deres tilgodehavender hos debitorer. Den kan anvendes ved pengekrav på højst 100.000 kr., når der ikke forventes indsigelser fra debitor.",
+    "source_ref": "24.7 Den forenklede inkassoproces"
+  },
+  {
+    "id": 192,
+    "front": "Hvad er et betalingspåkrav?",
+    "back_answer": "Et betalingspåkrav er et skema, der kan rekvireres i Fogedretten, udfyldes og sendes til Fogedretten uden bilag. Det bruges til at indlede den forenklede inkassoproces og skal indeholde oplysninger om kravet og fristen for betaling.",
+    "source_ref": "Betalingspåkravet"
+  },
+  {
+    "id": 193,
+    "front": "Hvad er umiddelbare fogedforretninger?",
+    "back_answer": "Umiddelbare fogedforretninger er sager, der drejer sig om at gennemføre andre krav end inddrivelse af pengekrav, fx tilbagetagelse af solgte varer ved ejendomsforbehold eller udsættelse af lejere. Der kræves ikke domstolsprøvelse.",
+    "source_ref": "24.8 Umiddelbare fogedforretninger"
+  },
+  {
+    "id": 194,
+    "front": "Hvad er et foreløbigt retsmiddel?",
+    "back_answer": "Et foreløbigt retsmiddel er et retsskridt i form af arrest, der foretages uden et eksekutionsgrundlag. Det kan benyttes, når der er tale om et pengekrav, og der er behov for at opnå en sikkerhed, selvom der endnu ikke foreligger et eksekutionsgrundlag.",
+    "source_ref": "24.9 Foreløbigt retsmiddel"
+  },
+  {
+    "id": 195,
+    "front": "Hvad er en insolvenserklæring?",
+    "back_answer": "En insolvenserklæring er en erklæring, debitor kan afgive i Fogedretten, hvis han ikke kan betale, hvad han skylder, og han ikke ejer aktiver, der kan foretages udlæg i. Den freder debitor for yderligere møder i Fogedretten i seks måneder.",
+    "source_ref": "Insolvenserklæring"
+  },
+  {
+    "id": 196,
+    "front": "Hvad er påvisningsret?",
+    "back_answer": "Påvisningsret er debitors ret til selv at pege på, hvilke aktiver der skal foretages udlæg i. Fogedretten påser, at udlægget så vidt muligt sker i de aktiver, skyldneren og hans husstand bedst kan undvære.",
+    "source_ref": "Påvisningsret"
+  },
+  {
+    "id": 197,
+    "front": "Hvad er en påkravsskrivelse?",
+    "back_answer": "En påkravsskrivelse er en rykkerskrivelse til debitor om at betale det skyldige beløb inden mindst 10 dage. Den skal indeholde alle oplysninger, der er nødvendige for, at debitor kan vurdere, om det er det rigtige beløb, han afkræves.",
+    "source_ref": "Påkravsskrivelse"
+  },
+  {
+    "id": 198,
+    "front": "Hvad er et rykkergebyr?",
+    "back_answer": "Et rykkergebyr er et gebyr på højst 100 kr. inkl. moms, som kreditor må opkræve pr. rykkerskrivelse, dog maksimalt 3 gange. Det er en kompensation for kreditors udgifter i forbindelse med misligholdelsen.",
+    "source_ref": "Rykkergebyr i forbrugerforhold"
+  },
+  {
+    "id": 199,
+    "front": "Hvad er trangsbeneficiet?",
+    "back_answer": "Trangsbeneficiet er en regel i Retsplejelovens § 509, der betyder, at der ikke kan foretages udlæg i aktiver, der er nødvendige for, at debitor kan leve et beskedent hjem og en beskeden levefod. Det beskytter debitors basale behov.",
+    "source_ref": "Aktiver, der ikke kan foretages udlæg i"
+  },
+  {
+    "id": 200,
+    "front": "Hvad er en afdragsordning?",
+    "back_answer": "En afdragsordning er en aftale mellem rekvirenten (kreditor) og rekvisitus (debitor) om afvikling af et tilgodehavende over tid. Debitor betaler hele gælden over en nærmere bestemt periode med faste månedlige afdrag.",
+    "source_ref": "24.12 Ordbog"
+  },
+  {
     "id": 201,
     "front": "Hvad er en arrest?",
     "back_answer": "En arrest er et foreløbigt udlæg, der foretages uden et eksekutionsgrundlag. Den kan benyttes til sikkerhed for pengekrav, når der er behov for at opnå en sikkerhed, selvom der endnu ikke foreligger et eksekutionsgrundlag.",
@@ -802,5 +2002,23 @@
     "front": "Hvad er trangsbeneficiet?",
     "back_answer": "Trangsbeneficiet er en regel i Retsplejelovens § 509, der betyder, at der ikke kan foretages udlæg i aktiver, der er nødvendige for, at debitor kan leve et beskedent hjem og en beskeden levefod. Det beskytter debitors basale behov.",
     "source_ref": "Aktiver, der ikke kan foretages udlæg i"
+  },
+  {
+    "id": 335,
+    "front": "Hvad er Købelovens regler for forbrugerkøb?",
+    "back_answer": "Købelovens regler for forbrugerkøb gælder for køb foretaget mellem en forbruger og en erhvervsdrivende, fx i fysiske butikker. Reglerne er beskyttelsespræceptive, hvilket betyder, at de ikke kan fraviges til skade for forbrugeren.",
+    "source_ref": "15. Forbrugerkøb"
+  },
+  {
+    "id": 336,
+    "front": "Hvad er en ægtepagt?",
+    "back_answer": "En ægtepagt er det dokument, ægtefæller underskriver, hvis de vil oprette eller ophæve særeje. Den skal være skriftlig, underskrevet af begge ægtefæller og tinglyst i personbogen for at være gyldig.",
+    "source_ref": "23.7 Ordbog"
+  },
+  {
+    "id": 337,
+    "front": "Hvad er skilsmissesæreje?",
+    "back_answer": "Skilsmissesæreje er en form for særeje, der alene gælder ved bodeling efter skilsmisse. Det betyder, at særejeaktiver ikke indgår i delingsformuerne ved skilsmisse, men indgår i formuefællesskabet ved dødsfald.",
+    "source_ref": "23.7 Ordbog"
   }
 ]
