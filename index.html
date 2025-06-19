@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8" />
+  <title>Erhvervsjura C – Flashcards</title>
+  <style>
+    body{font-family:sans-serif;display:flex;flex-direction:column;align-items:center;margin:2rem}
+    #card{border:1px solid #ccc;border-radius:12px;padding:2rem;max-width:600px;cursor:pointer;transition:transform .3s}
+    #card.is-back{background:#f6f6f6}
+    button{margin:1rem}
+  </style>
+</head>
+<body>
+  <h1>Erhvervsjura C – Flashcards</h1>
+  <div id="card">Indlæser…</div>
+  <div>
+    <button id="prev">⟵ Forrige</button>
+    <button id="next">Næste ⟶</button>
+    <button id="shuffle">Bland</button>
+  </div>
+
+<script>
+let cards=[], i=0, showingFront=true;
+fetch('cards.json').then(r=>r.json()).then(data=>{
+  cards=data; render();
+});
+function render(){
+  const c=cards[i]; document.getElementById('card').textContent = showingFront? c.front : c.back_answer;
+  document.getElementById('card').classList.toggle('is-back', !showingFront);
+}
+document.getElementById('card').onclick=()=>{
+  showingFront=!showingFront; render();
+};
+document.getElementById('next').onclick=()=>{
+  i=(i+1)%cards.length; showingFront=true; render();
+};
+document.getElementById('prev').onclick=()=>{
+  i=(i-1+cards.length)%cards.length; showingFront=true; render();
+};
+document.getElementById('shuffle').onclick=()=>{
+  cards.sort(()=>Math.random()-0.5); i=0; showingFront=true; render();
+};
+</script>
+</body>
+</html>
