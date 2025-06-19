@@ -1,0 +1,122 @@
+/* Global styles */
+:root {
+  --primary-color: #2563eb;
+  --primary-color-hover: #1d4ed8;
+  --dark-bg: #1f2937;
+  --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  --card-shadow-hover: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 1rem;
+  color: #222;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Flashcard */
+#card {
+  width: 100%;
+  max-width: 700px;
+  min-height: 180px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  box-shadow: var(--card-shadow);
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+#card.is-back {
+  background: var(--dark-bg);
+  color: #f9fafb;
+}
+
+/* Controls */
+#controls {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: var(--primary-color-hover);
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Progress indicator */
+#progress {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  #card {
+    font-size: 1rem;
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  #card {
+    max-width: 900px;
+    font-size: 1.5rem;
+    padding: 4rem 3rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  button {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+  }
+} 

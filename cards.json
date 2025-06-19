@@ -2005,18 +2005,594 @@
   },
   {
     "id": 335,
+    "front": "Hvad er sammenhængskraft i et samfund?",
+    "back_answer": "Sammenhængskraft beskriver samhørigheden og fællesskabsfølelsen mellem mennesker i et samfund. Et velfungerende samfund har stor sammenhængskraft, hvor afstanden mellem grupperne er relativt lille, og der er tillid mellem mennesker og myndigheder.",
+    "source_ref": "Sammenhængskraft"
+  },
+  {
+    "id": 336,
+    "front": "Hvad er lovgivningsproceduren i Danmark?",
+    "back_answer": "Lovgivningsproceduren er den proces, hvor et lovforslag fremlægges og vedtages i Folketinget. Den indebærer typisk tre behandlinger i Folketinget, og for grundlovsændringer kræves også en folkeafstemning.",
+    "source_ref": "Lovgivningsproceduren"
+  },
+  {
+    "id": 337,
+    "front": "Hvad er en traktat som EU-retskilde?",
+    "back_answer": "En traktat er en grundlæggende aftale indgået mellem EU-medlemsstater, der udgør grundlaget for EU-samarbejdet, ligesom en forfatning. Traktater er bindende for alle medlemsstater.",
+    "source_ref": "EU-retskilder"
+  },
+  {
+    "id": 338,
+    "front": "Hvad er en forordning som EU-retskilde?",
+    "back_answer": "En forordning er en EU-lov, der er umiddelbart bindende i alle EU-lande, så snart den er vedtaget af EU's lovgivende institutioner. Den gælder direkte og har forrang frem for national lovgivning.",
+    "source_ref": "EU-retskilder"
+  },
+  {
+    "id": 339,
+    "front": "Hvad er et direktiv som EU-retskilde?",
+    "back_answer": "Et direktiv er en EU-lov, der først bliver gældende ret i et medlemsland, når det nationale parlament har vedtaget den. Medlemslandene har en vis frihed til at implementere direktivet i national lovgivning, men skal opnå det tilsigtede resultat.",
+    "source_ref": "EU-retskilder"
+  },
+  {
+    "id": 340,
+    "front": "Hvad betyder præceptiv?",
+    "back_answer": "Præceptiv betyder ufravigelig. En præceptiv lovregel kan ikke fraviges ved aftale mellem parterne, men skal følges. Dette bruges ofte til at beskytte den svage part i et retsforhold.",
+    "source_ref": "Købelov § 73"
+  },
+  {
+    "id": 341,
+    "front": "Hvad betyder deklaratorisk?",
+    "back_answer": "Deklaratorisk betyder fravigelig. En deklaratorisk lovregel gælder kun, hvis parterne ikke har aftalt andet, eller hvis der ikke findes en kutyme eller sædvane på området. Parterne kan frit aftale at fravige reglen.",
+    "source_ref": "Købelov § 1"
+  },
+  {
+    "id": 342,
+    "front": "Hvad er juridisk litteratur som retskilde?",
+    "back_answer": "Juridisk litteratur, som bøger af juridiske forfattere, kan udvikle sig til en retskilde i sig selv. Dette sker, når forfatterne gennemgår en langvarig retspraksis og beskriver retstilstanden så præcist, at den bliver et entydigt regelsæt.",
+    "source_ref": "Juridisk litteratur"
+  },
+  {
+    "id": 343,
+    "front": "Hvad er et præjudikat?",
+    "back_answer": "Et præjudikat er en tidligere afsagt dom, hvis udfald kan få betydning for afgørelsen af en ny lignende sag. Domstolene tager tidligere domme med i deres vurdering, når en ny lignende sag skal afgøres.",
+    "source_ref": "3.6 Retspraksis"
+  },
+  {
+    "id": 344,
+    "front": "Hvad er en rammelov?",
+    "back_answer": "En rammelov er en lov, der kun angiver visse hovedlinjer eller rammer, inden for hvilke den relevante fagminister selv kan fastsætte nærmere og mere detaljerede regler. Dette sker ofte i form af administrative forskrifter som bekendtgørelser.",
+    "source_ref": "3.3 Love"
+  },
+  {
+    "id": 345,
+    "front": "Hvad er en speciallov?",
+    "back_answer": "En speciallov er en lov, der specifikt regulerer et nærmere defineret område, fx særlig naturbeskyttelse eller forskning vedrørende en bestemt sygdom. En speciallov gælder forud for en generel lov.",
+    "source_ref": "3.3 Love"
+  },
+  {
+    "id": 346,
+    "front": "Hvad er en bekendtgørelse?",
+    "back_answer": "En bekendtgørelse er en administrativ forskrift, der udstedes af en minister med hjemmel i en rammelov. Den udfylder lovens regler og kan nemt ændres, hvis der er anledning til det, fx ved ny viden eller teknologi.",
+    "source_ref": "3.4 Bekendtgørelser"
+  },
+  {
+    "id": 347,
+    "front": "Hvad er et cirkulære?",
+    "back_answer": "Et cirkulære er en intern arbejdsinstruks, der udstedes af en overordnet offentlig myndighed til en underordnet myndighed. Cirkulærer kræver ikke lovhjemmel og forpligter kun den underordnede myndighed, ikke borgerne.",
+    "source_ref": "Cirkulærer"
+  },
+  {
+    "id": 348,
+    "front": "Hvad er en vedtægt?",
+    "back_answer": "En vedtægt er et regelsæt, der laves, når en gruppe mennesker stifter en forening, eller som gælder for et område reguleret af en lokalplan. Vedtægter oplyser foreningens navn og formål og har bestemmelser om, hvordan foreningen skal ledes og drives.",
+    "source_ref": "3.5 Vedtægter"
+  },
+  {
+    "id": 349,
+    "front": "Hvad er analog fortolkning af retsregler?",
+    "back_answer": "Analog fortolkning betyder at lade en lovbestemmelse omfatte mere, end den selv nævner. Hvis det harmonerer med lovens formål, kan bestemmelsen få betydning for forhold, der minder om de, der er nævnt i loven.",
+    "source_ref": "3.9 Fortolkning af retsregler"
+  },
+  {
+    "id": 350,
+    "front": "Hvad er modsætningsslutning i fortolkning af retsregler?",
+    "back_answer": "Modsætningsslutning betyder, at hvis der ikke findes lighedspunkter mellem det, en lov angiver at gælde for, og et ureguleret emne, eller når loven sigter på et konkret eller begrænset område, må man tage udgangspunkt i, at loven ikke gælder for andre områder end det direkte nævnte.",
+    "source_ref": "Modsætningsslutning"
+  },
+  {
+    "id": 351,
+    "front": "Hvad er de seks trin i juridisk metode?",
+    "back_answer": "De seks trin i juridisk metode er: 1. Definer det juridiske område. 2. Formuler den juridiske problemstilling og angiv sagens parter med deres juridiske betegnelser. 3. Angiv retskilder. 4. Redegør for teori. 5. Vurder teori i forhold til fakta. 6. Afgiv begrundet konklusion/løsning.",
+    "source_ref": "4.1 Trin for trin"
+  },
+  {
+    "id": 352,
+    "front": "Hvad er grov uagtsomhed?",
+    "back_answer": "Grov uagtsomhed foreligger, når en uagtsom handling med overvejende sandsynlighed vil udløse en skade. Skadevolderen burde have forudset skaden og har handlet markant mere uforsvarligt end gennemsnitsborgeren.",
+    "source_ref": "Uagtsomhed"
+  },
+  {
+    "id": 353,
+    "front": "Hvad er simpel uagtsomhed?",
+    "back_answer": "Simpel uagtsomhed foreligger, når der kun er en rimelig sandsynlighed for, at en skade udløses af handlingen. Den foreligger ofte ved et øjebliks uopmærksomhed fra skadevolders side.",
+    "source_ref": "Uagtsomhed"
+  },
+  {
+    "id": 354,
+    "front": "Hvem er skadelidte?",
+    "back_answer": "Skadelidte er den person, der er blevet udsat for skade, enten på person eller ejendom. Skadelidte har et erstatningskrav på skadevolderen, hvis erstatningsbetingelserne er opfyldt.",
+    "source_ref": "7.12 Ordbog"
+  },
+  {
+    "id": 355,
+    "front": "Hvem er skadevolder?",
+    "back_answer": "Skadevolder er den person, der er årsag til, at skaden sker. Skadevolderen er erstatningsansvarlig, hvis han har handlet culpøst eller er pålagt objektivt ansvar.",
+    "source_ref": "7.12 Ordbog"
+  },
+  {
+    "id": 356,
+    "front": "Hvem er forsikringsgiver?",
+    "back_answer": "Forsikringsgiver er forsikringsselskabet, der påtager sig risikoen for, at en begivenhed vil indtræde, mod at få en præmie fra forsikringstageren.",
+    "source_ref": "8.1 Parterne i forsikring og forsikringsformer"
+  },
+  {
+    "id": 357,
+    "front": "Hvem er forsikringstager?",
+    "back_answer": "Forsikringstager er den person, der ønsker at afdække en risiko ved at tegne en forsikring og derved få et forsikringsselskab til at overtage risikoen. Forsikringstageren betaler en præmie for forsikringen.",
+    "source_ref": "8.1 Parterne i forsikring og forsikringsformer"
+  },
+  {
+    "id": 358,
+    "front": "Hvad er forsikringsydelse?",
+    "back_answer": "Forsikringsydelse er det beløb, forsikringsselskabet skal udbetale, når forsikringsbegivenheden er indtrådt. Ved skadesforsikringer dækker den det faktisk opståede tab, mens den ved summaforsikringer er et aftalt beløb.",
+    "source_ref": "8.5 Forsikringsudbetaling"
+  },
+  {
+    "id": 359,
+    "front": "Hvad er nyværdiforsikring?",
+    "back_answer": "Nyværdiforsikring er en undtagelse til vindingsforbuddet, hvor forsikringsydelsen for et brugt aktiv sættes til prisen på et nyt tilsvarende aktiv. Dette er normalt betinget af, at genanskaffelse faktisk sker.",
+    "source_ref": "8.5 Forsikringsudbetaling"
+  },
+  {
+    "id": 360,
+    "front": "Hvad er legal acceptfrist?",
+    "back_answer": "Legal acceptfrist er den frist for accept af et tilbud, der gælder, hvis tilbudsgiveren ikke selv har fastsat en frist, eller hvis der ikke er aftalt en frist. Den består af fremsendelsestid for tilbuddet, rimelig betænkningstid og tilbagesendelsestid for accepten.",
+    "source_ref": "10.2 Aftalemodellen"
+  },
+  {
+    "id": 361,
+    "front": "Hvad er et påbud?",
+    "back_answer": "Et påbud er en erklæring, der forpligter modtageren. Et påbud binder, når det er modtaget, dvs. i brevsprækkeøjeblikket. Det adskiller sig fra et løfte, der binder, når det er kommet til modtagerens kundskab.",
+    "source_ref": "Aftalelovens fagudtryk"
+  },
+  {
+    "id": 362,
+    "front": "Hvad betyder rettidig?",
+    "back_answer": "Rettidig betyder, at en meddelelse, fx en accept, når frem inden acceptfristens udløb. Hvis en meddelelse ikke er rettidig, kan det have konsekvenser for aftalens gyldighed.",
+    "source_ref": "10.6 Ordbog"
+  },
+  {
+    "id": 363,
+    "front": "Hvad er tilbagekaldelse af et løfte?",
+    "back_answer": "Tilbagekaldelse er et påbud om ikke at ville være bundet af sit tidligere løfte. En tilbagekaldelse er kun gyldig, hvis den kommer frem til modtageren inden eller samtidig med, at løftet kommer til modtagerens kundskab.",
+    "source_ref": "10.2.1. Tilbagekaldelse af tilbud og accept"
+  },
+  {
+    "id": 364,
+    "front": "Hvad er bemyndigelse i fuldmagtsforhold?",
+    "back_answer": "Bemyndigelsen er den interne aftale eller instruks mellem fuldmagtsgiver og fuldmægtigen. Den er ikke kendt af omverdenen/tredjemand og begrænser fuldmægtigens dispositionsret.",
+    "source_ref": "11.1 Fuldmagtsformer"
+  },
+  {
+    "id": 365,
+    "front": "Hvad er fuldmagt med særligt kendetegn?",
+    "back_answer": "Fuldmagt med særligt kendetegn er en fuldmagtstype, der giver sig til kende over for tredjemand, så de har et vist kendskab til fuldmagtens omfang (legitimationen). Den viser sig på en særlig måde, fx som stillingsfuldmagt eller forevisningsfuldmagt.",
+    "source_ref": "11.1.1 Fuldmagt med særlige kendetegn"
+  },
+  {
+    "id": 366,
+    "front": "Hvad er fuldmagt uden særligt kendetegn?",
+    "back_answer": "Fuldmagt uden særligt kendetegn, også kaldet en § 18-fuldmagt, er den enkleste form for fuldmagt, der alene hviler på fuldmagtsgiverens erklæring til fuldmægtigen. Tredjemand eller omverdenen kender ikke indholdet af fuldmagten, og legitimationen er den samme som bemyndigelsen.",
+    "source_ref": "11.1.2 Fuldmagt uden særlige kendetegn"
+  },
+  {
+    "id": 367,
+    "front": "Hvem er fuldmægtig?",
+    "back_answer": "En fuldmægtig er en person, der har fået fuldmagt til at handle på fuldmagtsgiverens vegne i dennes navn og for dennes regning. Fuldmægtigen kan indgå aftaler, der binder fuldmagtsgiveren, inden for fuldmagtens grænser.",
+    "source_ref": "11.5 Ordbog"
+  },
+  {
+    "id": 368,
+    "front": "Hvad er kendetegn i fuldmagtslæren?",
+    "back_answer": "Kendetegn i fuldmagtslæren er noget, der giver tredjemand berettigede forventninger i forhold til fuldmægtigens ret til at handle på vegne af fuldmagtsgiveren. Det er det ydre forhold, der signalerer fuldmagtens omfang.",
+    "source_ref": "11.5 Ordbog"
+  },
+  {
+    "id": 369,
+    "front": "Hvad er legitimation i fuldmagtsforhold?",
+    "back_answer": "Legitimation er fuldmagtens grænser, der er kendt af omverdenen/tredjemand. Det er den maksimale råderet, fuldmægtigen har på vegne af fuldmagtsgiveren. Fx er en salgsassistent legitimeret til at sælge forretningens varer.",
+    "source_ref": "11.5 Ordbog"
+  },
+  {
+    "id": 370,
+    "front": "Hvad er prokura?",
+    "back_answer": "Prokura er en fuldmagt, der legitimerer prokuristen til at handle for virksomheden i alle forhold, der hører til den normale drift, og til i øvrigt at forpligte virksomheden med kun få begrænsninger. Prokura skal anmeldes til Erhvervsstyrelsen og tinglyses.",
+    "source_ref": "11.5 Ordbog"
+  },
+  {
+    "id": 371,
+    "front": "Hvad betyder god tro i aftaleretten?",
+    "back_answer": "God tro betyder, at en løftemodtager hverken vidste eller burde vide (havde mistanke om), at et løfte er givet pga. en ugyldighedsgrund. Hvis løftemodtageren er i god tro, beskyttes han ofte, og aftalen kan være bindende, selvom der foreligger en svag ugyldighedsgrund.",
+    "source_ref": "12.8 Ordbog"
+  },
+  {
+    "id": 372,
+    "front": "Hvad betyder ond tro i aftaleretten?",
+    "back_answer": "Ond tro betyder, at en løftemodtager enten vidste eller burde vide, at et løfte er givet pga. en ugyldighedsgrund. Ond tro medfører aftalers ugyldighed, selvom der kun foreligger en svag ugyldighedsgrund.",
+    "source_ref": "12.8 Ordbog"
+  },
+  {
+    "id": 373,
+    "front": "Hvad er Betaleren i forbrugeraftaler?",
+    "back_answer": "Betaleren er betegnelsen for den person, der har fx et betalingskort og foretager en betalingstransaktion. Betaleren er brugeren af betalingstjenesten.",
+    "source_ref": "14.13 Ordbog"
+  },
+  {
+    "id": 374,
+    "front": "Hvem er Betalingsmodtageren?",
+    "back_answer": "Betalingsmodtageren er den person, der modtager betaling fra en betaler. Det er typisk en butiksejer eller en anden erhvervsdrivende, der modtager et beløb betalt med et betalingskort.",
+    "source_ref": "14.13 Ordbog"
+  },
+  {
+    "id": 375,
+    "front": "Hvad er elektronisk signatur?",
+    "back_answer": "Elektronisk signatur er et system, der sikrer, at underskriveren er den rigtige ved elektronisk udveksling af dokumenter. Det bruges til at opfylde krav om skriftlighed i lovgivningen.",
+    "source_ref": "14.13 Ordbog"
+  },
+  {
+    "id": 376,
+    "front": "Hvad er fri bevægelighed?",
+    "back_answer": "Fri bevægelighed betyder, at varer og tjenesteydelser kan passere EU-landenes grænser uden tekniske eller økonomiske hindringer. Det er et grundlæggende princip i EU's indre marked.",
+    "source_ref": "14.13 Ordbog"
+  },
+  {
+    "id": 377,
+    "front": "Hvad er 'komme frem' i aftaleretten?",
+    "back_answer": "'Komme frem' er det øjeblik, hvor meddelelsen er i modtagerens postkasse eller mailindbakke (brevsprækkeøjeblikket). Dette tidspunkt er afgørende for, hvornår et løfte eller en accept binder afsenderen.",
+    "source_ref": "14.13 Ordbog"
+  },
+  {
+    "id": 378,
+    "front": "Hvad er 'udenfor fast forretningssted' i forbrugeraftaler?",
+    "back_answer": "'Udenfor fast forretningssted' er en situation, hvor en erhvervsdrivende sælger sine varer ved en varedemonstration, under en bustur eller ved en forestilling, der er arrangeret af den erhvervsdrivende. Forbrugeren har fortrydelsesret i disse situationer.",
+    "source_ref": "14.13 Ordbog"
+  },
+  {
+    "id": 379,
+    "front": "Hvad er underretningspligt?",
+    "back_answer": "Underretningspligt er den pligt, man har til straks at meddele udstederen, hvis man mister sit betalingskort. Manglende overholdelse af denne pligt kan medføre, at man selv hæfter for misbrug.",
+    "source_ref": "14.13 Ordbog"
+  },
+  {
+    "id": 380,
+    "front": "Hvad er afhjælpning i køberetten?",
+    "back_answer": "Afhjælpning i køberetten betyder, at køberen har ret til at få varen repareret gratis, hvis den lider af en mangel. Sælgeren kan kræve at afhjælpe manglen, hvis det er den nemmeste eller billigste løsning, og reparationen kan ske inden rimelig tid og uden væsentlig ulempe for forbrugeren.",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 381,
+    "front": "Hvad er beskyttelsespræceptiv?",
+    "back_answer": "Beskyttelsespræceptiv betyder, at en lovregel kun kan fraviges, hvis det er til den 'svage' parts fordel. Dette princip anvendes i forbrugerret for at beskytte forbrugeren mod urimelige vilkår i aftaler med erhvervsdrivende.",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 382,
+    "front": "Hvad er forholdsmæssigt afslag?",
+    "back_answer": "Forholdsmæssigt afslag er en misligholdelsesbeføjelse, hvor køberen får en del af købesummen refunderet (nedslag i prisen), hvis varen lider af en mangel. Afslaget skal svare til den værdiforringelse, manglen medfører.",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 383,
+    "front": "Hvad er formodningsreglen i forbrugerkøb?",
+    "back_answer": "Formodningsreglen er en bevisbyrderegel i forbrugerkøb, der betyder, at hvis en forbruger reklamerer over en mangel inden for 12 måneder efter levering, formodes manglen at have været til stede ved leveringen. Sælgeren har bevisbyrden for, at der ikke var en mangel ved risikoens overgang.",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 384,
+    "front": "Hvad betyder 'købt som beset'?",
+    "back_answer": "'Købt som beset' betyder, at køber har købt varen, som den er og forefindes, uden ansvar for sælgeren. Denne klausul kan dog ikke fraskrive sælgerens ansvar for mangler i forbrugerkøb, da Købelovens regler er beskyttelsespræceptive.",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 385,
+    "front": "Hvad er omlevering i køberetten?",
+    "back_answer": "Omlevering er en misligholdelsesbeføjelse, hvor køberen får en ny tilsvarende vare i stedet for den mangelfulde. Omlevering er kun mulig ved genuskøb, da der findes flere af samme slags varer.",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 386,
+    "front": "Hvad er ophævelse i køberetten?",
+    "back_answer": "Ophævelse i køberetten betyder, at handlen går tilbage, og køberen får hele købesummen tilbage mod at returnere varen. Ophævelse kan kun ske, hvis manglen er væsentlig, eller hvis sælgeren ikke afhjælper eller omleverer inden rimelig tid.",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 387,
+    "front": "Hvad er reklamationsfrist?",
+    "back_answer": "Reklamationsfrist er den tid, køber har til at stille krav over for sælger, når han har misligholdt aftalen ved at levere forsinket eller mangelfuldt. Der gælder en relativ frist (rimelig tid) og en absolut frist (typisk to år).",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 388,
+    "front": "Hvad er undersøgelsespligt?",
+    "back_answer": "Undersøgelsespligt er købers pligt til straks ved varens modtagelse at undersøge varen for synlige mangler. Denne pligt gælder dog ikke i forbrugerkøb, men i handelskøb kan manglende undersøgelse medføre, at køber mister retten til at påberåbe sig mangler.",
+    "source_ref": "15.8 Ordbog"
+  },
+  {
+    "id": 389,
+    "front": "Hvad er anprisning i markedsføring?",
+    "back_answer": "Anprisning er fremhævelse af de gode forhold ved et produkt i markedsføring. Anprisninger skal være sandfærdige og retvisende, og faktuelle oplysninger skal kunne dokumenteres.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 390,
+    "front": "Hvad er Forbrugerombudsmanden?",
+    "back_answer": "Forbrugerombudsmanden er en person udpeget af Regeringen til at føre tilsyn med, at reglerne i Markedsføringsloven overholdes. Forbrugerombudsmanden kan gribe ind over for ulovlig markedsføring og give forhåndsbesked eller nedlægge forbud.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 391,
+    "front": "Hvad er god erhvervsskik?",
+    "back_answer": "God erhvervsskik er en standard, der skal følges af erhvervsdrivende, der påvirker forbrugeres økonomiske beslutninger. Den indebærer, at erhvervsdrivende skal optræde ordentligt og rimeligt i deres forretningspraksis.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 392,
+    "front": "Hvad er handelspraksis i markedsføring?",
+    "back_answer": "Handelspraksis er en handling, udeladelse, adfærd, fremstilling eller kommerciel kommunikation, herunder reklame og markedsføring, foretaget af en erhvervsdrivende med direkte relation til promovering, salg eller udbud af et produkt til forbrugerne.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 393,
+    "front": "Hvad er salgsfremmende foranstaltninger?",
+    "back_answer": "Salgsfremmende foranstaltninger er tiltag, som erhvervsdrivende bruger for at få opmærksomhed på deres produkter/tjenesteydelser, fx tilgift, rabatkuponer, mængdebegrænsning og konkurrencer. Disse tiltag er omfattet af bestemmelserne om vildledning.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 394,
+    "front": "Hvad er skamros?",
+    "back_answer": "Skamros er overdreven, ofte ufortjent ros, der fremføres i ukritisk beundring. Det er en form for markedsføring, der kan være vildledende, hvis den ikke kan dokumenteres eller er faktuelt forkert.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 395,
+    "front": "Hvad er tilbudsvarer?",
+    "back_answer": "Tilbudsvarer er varer, der udbydes til salg for en pris, der er lavere end sædvanligt. Prisen skal være retvisende, og den angivne pris skal være den pris, hovedparten af forbrugerne skal betale for at få det tilbudte.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 396,
+    "front": "Hvad er udsalgsvarer?",
+    "back_answer": "Udsalgsvarer er bestemte varer, der tidligere blev udbudt til salg til højere priser i samme butik og nu er sat ned. Det er typisk sæsonbetonede varer, i modsætning til fødevarer.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 397,
+    "front": "Hvad er vildledende markedsføring?",
+    "back_answer": "Vildledende markedsføring er markedsføring, der indeholder faktuelt forkerte oplysninger, mangler relevante informationer og/eller udtrykker noget, der giver forbrugere en fejlagtig opfattelse. Det er ulovligt og kan medføre bødestraf.",
+    "source_ref": "16.14 Ordbog"
+  },
+  {
+    "id": 398,
+    "front": "Hvad er Ab lager (fabrik)?",
+    "back_answer": "Ab lager (fabrik) er en leveringsklausul, hvorefter levering sker på sælgers adresse. Sælger skal alene gøre varen klar, og køber bærer både risiko og omkostninger fra varen forlader sælgers lager/fabrik.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 399,
+    "front": "Hvad er bindende individualisering?",
+    "back_answer": "Bindende individualisering er, når sælgeren sætter købers varer til side med navn med samtykke fra køber. Dette betyder, at risikoen for varens hændelige undergang overgår til køber, selvom varen stadig er hos sælger.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 400,
+    "front": "Hvad er CF (Cost and Freight)?",
+    "back_answer": "CF er en omkostningsklausul, der pålægger sælger at betale alle transportomkostninger frem til bestemmelsesstedet. Levering (og dermed risikoovergang) overgår stadig, når varen overdrages til den første fremmede fragtfører.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 401,
+    "front": "Hvad er CIF (Cost, Insurance, Freight)?",
+    "back_answer": "CIF er en omkostningsklausul, der pålægger sælger at betale alle transportomkostninger inkl. præmien på en forsikring, der dækker købers risiko. Levering (og dermed risikoovergang) overgår stadig, når varen overdrages til den første fremmede fragtfører.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 402,
+    "front": "Hvad er Fixkøb?",
+    "back_answer": "Fixkøb er et køb, hvor køber har betinget sig en præcis leveringstid ved aftalens indgåelse. Enhver forsinkelse er væsentlig i et fixkøb, og køber kan hæve handlen, hvis varen ikke leveres til den aftalte tid.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 403,
+    "front": "Hvad er FOB (Free On Board)?",
+    "back_answer": "FOB er en leveringsklausul, der anvendes ved skibstransport. Levering sker, når varen kommer ombord på skibet på et angivet sted. Sælger bærer risiko og omkostninger, indtil varen er kommet inden for skibssiden.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 404,
+    "front": "Hvad er Force majeure i køberetten?",
+    "back_answer": "Force majeure er ekstraordinære begivenheder, som sælger/køber ikke har haft mulighed for at forudse og tage forbehold for, fx krig eller indførelsesforbud. Hvis force majeure foreligger, kan sælger blive ansvarsfri for forsinkelse.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 405,
+    "front": "Hvad er Franco (Leveret)?",
+    "back_answer": "Franco, også kaldet 'leveret', er en leveringsklausul, hvorefter sælger bærer både risiko og omkostninger, indtil varen er modtaget af køber på en angivet adresse. Det er den mest gunstige klausul for køber.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 406,
+    "front": "Hvad er individualisering i køberetten?",
+    "back_answer": "Individualisering er, når sælger har bestemt, hvilke varer køber skal have, og har skilt dem fra de øvrige varer, fx ved navnemærkning. Dette er relevant for genuskøb, da det kan overføre risikoen til køber før levering.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 407,
+    "front": "Hvad er en leveringsklausul?",
+    "back_answer": "En leveringsklausul er en aftalt klausul, der ændrer leveringsstedet og fordelingen af transportomkostningerne. Den har betydning for, hvem der skal betale omkostningerne, og hvornår risikoen overgår fra sælger til køber.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 408,
+    "front": "Hvad er manglende betalingsevne?",
+    "back_answer": "Manglende betalingsevne foreligger, når køber ikke kan betale på grund af insolvens, fx ved rekonstruktion eller konkurs. Dette er en form for forventet misligholdelse fra købers side.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 409,
+    "front": "Hvad er en mangel i køberetten?",
+    "back_answer": "En mangel i køberetten foreligger, når en vare ikke er som aftalt, eller som køber med rette kunne forvente. Det kan være en kvalitetsmangel (varen afviger fra aftalt kvalitet) eller en kvantitetsmangel (forkert antal).",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 410,
+    "front": "Hvad er omkostningsklausuler?",
+    "back_answer": "Omkostningsklausuler er aftalte klausuler, der fastlægger alene fordelingen af transportudgifterne mellem sælger og køber. De nævner intet om leveringsstedet, som forbliver hos den første fremmede fragtfører.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 411,
+    "front": "Hvad er omsorgspligt i køberetten?",
+    "back_answer": "Omsorgspligt i køberetten betyder, at sælger skal passe på og opbevare varerne forsvarligt, hvis køber er i fordringshavermora. Udgifterne til opbevaringen er købers, men sælger skal minimere omkostningerne.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 412,
+    "front": "Hvad er risikoovergang i køberetten?",
+    "back_answer": "Risikoovergang er det tidspunkt, hvor risikoen for en vares hændelige beskadigelse eller undergang overføres fra sælger til køber. Hovedreglen er, at risikoen overgår ved levering.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 413,
+    "front": "Hvad er spillerum i køberetten?",
+    "back_answer": "Spillerum er en periode, inden for hvilken levering skal ske, fx 'primo juni'. Hvis køber selv skal hente en speciesvare hos sælger, overgår risikoen til køber fra spillerummets begyndelse.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 414,
+    "front": "Hvad er spillerumsreglen?",
+    "back_answer": "Spillerumsreglen er en undtagelse til hovedreglen om risikoovergang. Den betyder, at risikoen overgår til køber fra et spillerums begyndelse, når køber selv skal hente en speciesvare hos sælger, selvom varen stadig er hos sælger.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 415,
+    "front": "Hvad betyder 'straks' i køberetten?",
+    "back_answer": "'Straks' betyder 'med det samme'. Fx skal en handelskøber reklamere straks, når en misligholdelse er opdaget, for at bevare sine rettigheder.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 416,
+    "front": "Hvad er transportklausuler?",
+    "back_answer": "Transportklausuler er aftalte klausuler, der fastlægger leveringssted og/eller omkostninger samt forsikringer i forbindelse med transport af varer. De har betydning for, hvem der bærer risikoen og omkostningerne under transporten.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 417,
+    "front": "Hvad betyder 'uden ugrundet ophold' i køberetten?",
+    "back_answer": "'Uden ugrundet ophold' betyder 'hurtigst muligt'. Fx skal en tilbudsgiver reklamere hurtigst muligt efter, at en accept er modtaget for sent, hvis han kan se, at acceptanten tror, den er rettidig.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 418,
+    "front": "Hvad er vanhjemmel?",
+    "back_answer": "Vanhjemmel er en retlig mangel, der foreligger, når sælgeren ikke har haft ret til at sælge varen, fx fordi varen er stjålet, lånt, lejet eller pantsat. Køber kan i den situation gøre brug af misligholdelsesbeføjelser, fx hæve købet eller kræve erstatning.",
+    "source_ref": "17.7 Ordbog"
+  },
+  {
+    "id": 419,
+    "front": "Hvad er afbetalingskøb?",
+    "back_answer": "Afbetalingskøb er et kreditkøb, hvor køberen betaler købesummen i rater over en længere periode. Sælgeren bevarer typisk ejendomsretten, indtil sidste afdrag er betalt.",
+    "source_ref": "19.5 Ordbog"
+  },
+  {
+    "id": 420,
+    "front": "Hvem er debitor?",
+    "back_answer": "Debitor er den person, der skylder penge i et gældsforhold. Debitor har pligt til at betale sin gæld til kreditor, og hvis han ikke gør det, kan kreditor inddrive gælden via inkasso og fogedret.",
+    "source_ref": "19.5 Ordbog"
+  },
+  {
+    "id": 421,
+    "front": "Hvad er henstand?",
+    "back_answer": "Henstand er udsættelse med betaling. Det betyder, at debitor får lov til at betale sin gæld senere end oprindeligt aftalt. Henstand kan aftales mellem parterne eller gives af kreditgiveren.",
+    "source_ref": "19.5 Ordbog"
+  },
+  {
+    "id": 422,
+    "front": "Hvad er kaution?",
+    "back_answer": "Kaution er en form for kreditsikring, hvor en anden person (kautionisten) lover at betale debitors gæld, hvis debitor ikke selv kan eller gør det. Kautionisten hæfter for gælden over for kreditor.",
+    "source_ref": "19.5 Ordbog"
+  },
+  {
+    "id": 423,
+    "front": "Hvem er kreditgiver?",
+    "back_answer": "Kreditgiver er den person eller virksomhed, der yder kredit i erhvervsøjemed. Det er typisk en bank, et pengeinstitut eller en sælger, der giver kredit til en forbruger eller en anden virksomhed.",
+    "source_ref": "19.5 Ordbog"
+  },
+  {
+    "id": 424,
+    "front": "Hvad er kreditkøb?",
+    "back_answer": "Kreditkøb er et køb, hvor prisen for en vare først skal betales efter, at varen er overgivet til køber. Det adskiller sig fra kontantkøb, hvor betaling sker samtidig med varens overgivelse.",
+    "source_ref": "19.5 Ordbog"
+  },
+  {
+    "id": 425,
+    "front": "Hvem er kreditor?",
+    "back_answer": "Kreditor er den person eller virksomhed, der har penge til gode hos en debitor. Kreditor har ret til at kræve betaling af sin fordring og kan inddrive gælden via inkasso og fogedret.",
+    "source_ref": "19.5 Ordbog"
+  },
+  {
+    "id": 426,
+    "front": "Hvad er ÅOP (Årlige Omkostninger i Procent)?",
+    "back_answer": "ÅOP er de årlige omkostninger beregnet i procent af lånebeløbet. Det er lånets 'kilopris' og skal indeholde alle gebyrer (stiftelsesgebyrer, løbende gebyrer) og renter. ÅOP er et vigtigt redskab for forbrugere til at sammenligne forskellige lån.",
+    "source_ref": "19.5 Ordbog"
+  },
+  {
+    "id": 427,
+    "front": "Hvad er kontantpris i kreditkøb?",
+    "back_answer": "Kontantpris i kreditkøb er varens pris, når der betales ved varens levering. Den adskiller sig fra kreditkøbsprisen, som inkluderer renter og omkostninger ved kreditkøbet.",
+    "source_ref": "20.6 Ordbog"
+  },
+  {
+    "id": 428,
+    "front": "Hvad er kreditkøbspris?",
+    "back_answer": "Kreditkøbspris er den pris, en køber samlet har betalt for varen, når det sidste afdrag er betalt. I beløbet indgår kontantpris inkl. udbetaling samt renter og omkostninger ved kreditkøbet.",
+    "source_ref": "20.6 Ordbog"
+  },
+  {
+    "id": 429,
+    "front": "Hvad er pantet?",
+    "back_answer": "Pantet er det aktiv, der stilles som sikkerhed ved pantsætning. Det kan være løsøre, fast ejendom eller fordringer. Panthaveren får en fortrinsret til pantets værdi, hvis debitor ikke betaler.",
+    "source_ref": "21.5 Ordbog"
+  },
+  {
+    "id": 430,
+    "front": "Hvad er pantsætning?",
+    "back_answer": "Pantsætning er sikkerhedsstillelse ved hjælp af aktiver. Det er en aftale mellem pantsætter (debitor) og panthaver (kreditor), hvor pantsætter giver panthaver ret til pant i et aktiv som sikkerhed for en gæld.",
+    "source_ref": "21.5 Ordbog"
+  },
+  {
+    "id": 431,
     "front": "Hvad er Købelovens regler for forbrugerkøb?",
     "back_answer": "Købelovens regler for forbrugerkøb gælder for køb foretaget mellem en forbruger og en erhvervsdrivende, fx i fysiske butikker. Reglerne er beskyttelsespræceptive, hvilket betyder, at de ikke kan fraviges til skade for forbrugeren.",
     "source_ref": "15. Forbrugerkøb"
   },
   {
-    "id": 336,
+    "id": 432,
     "front": "Hvad er en ægtepagt?",
     "back_answer": "En ægtepagt er det dokument, ægtefæller underskriver, hvis de vil oprette eller ophæve særeje. Den skal være skriftlig, underskrevet af begge ægtefæller og tinglyst i personbogen for at være gyldig.",
     "source_ref": "23.7 Ordbog"
   },
   {
-    "id": 337,
+    "id": 433,
     "front": "Hvad er skilsmissesæreje?",
     "back_answer": "Skilsmissesæreje er en form for særeje, der alene gælder ved bodeling efter skilsmisse. Det betyder, at særejeaktiver ikke indgår i delingsformuerne ved skilsmisse, men indgår i formuefællesskabet ved dødsfald.",
     "source_ref": "23.7 Ordbog"
